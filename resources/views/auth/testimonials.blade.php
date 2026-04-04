@@ -151,7 +151,7 @@
                         </div>
                     </div>
                     <div class="title-price-row">
-                        <h1>Veterinary Nursing Assistant Course</h1>
+                        <h1>AI for Business Applications</h1>
                         <span class="price-text">Free</span>
                     </div>
                     <div class="update-date" style="display: flex; align-items: center; gap: 8px; font-size: 11px; color: #94a3b8; margin-bottom: 20px;">

@@ -271,7 +271,7 @@ Route::post('/register', function (Request $request) {
 Route::get('/all-courses', function () {
     // Temporary demo data for the category grid
     $courses = [
-        ['img' => 'Artboard 5.jpg', 'title' => 'Veterinary Nursing Assistant Course'],
+        ['img' => 'Artboard 5.jpg', 'title' => 'AI for Business Applications'],
         ['img' => 'Artboard 6.jpg', 'title' => 'Digital Marketing Essentials'],
         ['img' => 'Artboard 7.jpg', 'title' => 'Beginner Mathematics Refresher'],
         ['img' => 'Artboard 8.jpg', 'title' => 'Introduction to Programming'],

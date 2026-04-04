@@ -210,7 +210,7 @@
                         </div>
                     </div>
                     <div class="title-price-row">
-                        <h1>Veterinary Nursing Assistant Course</h1>
+                        <h1>AI for Business Applications</h1>
                         <span class="price-text">Free</span>
                     </div>
                     <div class="update-date" style="display: flex; align-items: center; gap: 8px; font-size: 11px; color: #94a3b8; margin-bottom: 20px;">
@@ -260,7 +260,7 @@
                         <img src="{{ asset('images/9. Animal care.jpg') }}">
                     </div>
                     <div class="c-body">
-                        <h3>Veterinary Nursing Assistant Course</h3>
+                        <h3>AI for Business Applications</h3>
                         <p>Learn essential skills for pet care and management in this comprehensive course.</p>
                         <div class="c-footer">
                             <div class="cf-left">

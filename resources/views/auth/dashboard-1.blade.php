@@ -57,7 +57,7 @@
                             <div class="enrolled-item">
                                 <div class="color-bar" style="background:#003a70;"></div>
                                 <div class="enrolled-info">
-                                    <h4>Veterinary Nursing Assistant Course</h4>
+                                    <h4>AI for Business Applications</h4>
                                     <p>09:00 AM - 10:00 AM</p>
                                 </div>
                                 <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
@@ -96,7 +96,7 @@
                         <a href="{{ route('course.detail') }}" class="course-card" style="text-decoration:none; color:inherit;">
                             <div class="course-circ"></div>
                             <div class="course-body">
-                                <h4>Veterinary Nursing Assistant Course</h4>
+                                <h4>AI for Business Applications</h4>
                                 <p>12 hours</p>
                                 <div class="progress-row">
                                     <div class="prog-bg"><div class="prog-fill" style="width: 50%;"></div></div>

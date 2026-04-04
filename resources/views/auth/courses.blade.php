@@ -159,7 +159,7 @@
                         </div>
 
                         <div class="title-price-row">
-                            <h1>Veterinary Nursing Assistant Course</h1>
+                            <h1>AI for Business Applications</h1>
                             <div class="price-text">$599.99</div>
                         </div>
                         <div class="update-date">Last updated 24/03/2026</div>

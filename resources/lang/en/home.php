@@ -92,20 +92,20 @@ return [
     'lang_thai' => 'Thai',
 
     'live_course_titles' => [
-        'Veterinary Nursing Assistant Course',
-        'Building a Sustainable Startup: Strategies for Success',
-        'Rajamangala Identity Course',
+        'AI for Business Applications',
+        'ChatGPT for Productivity',
+        'Data Analytics Fundamentals',
     ],
     'free_course_titles' => [
-        'Veterinary Nursing Assistant Course',
-        'Building a Sustainable Startup: Strategies for Success',
-        'Rajamangala Identity Course',
-        'Building Relationships to Create a Digital Business Foundation',
+        'Cybersecurity Basics',
+        'Digital Marketing Strategy',
+        'Entrepreneurship & Startup Foundations',
+        'Financial Literacy & Budgeting',
     ],
     'popular_course_titles' => [
-        'Beverage Business: From Idea to Sustainable Success',
-        'Anti-Aging Business with Bioproducts',
-        'Learn and Get Rich',
-        'Camping Tourism and Campsite Entrepreneurship',
+        'Business Communication Skills',
+        'Project Management Essentials',
+        'Leadership & Team Management',
+        'Introduction to Coding (Python Basics)',
     ],
 ];

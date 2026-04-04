@@ -356,7 +356,7 @@
                         <div class="cal-cell inactive">30</div><div class="cal-cell">1</div><div class="cal-cell">2</div>
                         <div class="cal-cell">
                             <div class="date-num"><div class="circle-num">3</div></div>
-                            <div class="event-box"><h5>Veterinary Nursing Assistant Course..</h5><p>Teacher 1</p></div>
+                            <div class="event-box"><h5>AI for Business Applications..</h5><p>Teacher 1</p></div>
                         </div>
                         <div class="cal-cell">4</div><div class="cal-cell">5</div><div class="cal-cell">6</div>
                         <div class="cal-cell">7</div><div class="cal-cell">8</div><div class="cal-cell">9</div><div class="cal-cell">10</div><div class="cal-cell">11</div><div class="cal-cell">12</div><div class="cal-cell">13</div>
@@ -380,7 +380,7 @@
                     <div class="sched-card">
                         <div class="sched-time">09:00 am<span>to</span>10:00 am</div>
                         <div class="sched-v-bar" style="background:#f472b6;"></div>
-                        <div class="sched-info"><h4>Teacher 1</h4><h3>Veterinary Nursing Assistant Course</h3></div>
+                        <div class="sched-info"><h4>Teacher 1</h4><h3>AI for Business Applications</h3></div>
                         <div class="dots-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg></div>
                     </div>
 

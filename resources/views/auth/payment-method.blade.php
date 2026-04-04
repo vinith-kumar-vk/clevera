@@ -255,7 +255,7 @@
                             <div class="bs-item">
                                 <div class="bs-item-left">
                                     <div class="bs-thumb"></div>
-                                    <span class="bs-name">Veterinary Nursing Assistant Course</span>
+                                    <span class="bs-name">AI for Business Applications</span>
                                 </div>
                                 <span class="bs-price">Free</span>
                             </div>
