@@ -10,23 +10,23 @@ return [
     'items' => [
         [
             'date' => '01 June 2026',
-            'title' => 'Veterinary Nursing Assistant Course',
-            'description' => 'Learn animal care fundamentals and clinical support skills for veterinary practice in a structured online format.',
+            'title' => 'AI for Business Applications',
+            'description' => 'Learn how to leverage AI tools and technologies to solve business problems and automate workflows.',
         ],
         [
             'date' => '01 June 2026',
-            'title' => 'Building a Sustainable Startup: Strategies for Success',
-            'description' => 'Explore business models, funding, and long-term growth strategies for building a resilient startup.',
+            'title' => 'ChatGPT for Productivity',
+            'description' => 'Master prompt engineering and discover strategies to improve personal and team productivity using ChatGPT.',
         ],
         [
             'date' => '01 June 2026',
-            'title' => 'Rajamangala Identity Course',
-            'description' => 'Understand RMUTTO identity, values, and institutional culture as part of your learning journey.',
+            'title' => 'Data Analytics Fundamentals',
+            'description' => 'Understand data-centric decision making, data visualization, and analytical tools for modern businesses.',
         ],
         [
             'date' => '01 June 2026',
-            'title' => 'Building Relationships to Create a Digital Business Foundation',
-            'description' => 'Develop networking and partnership skills to grow a sustainable digital business presence.',
+            'title' => 'Cybersecurity Basics',
+            'description' => 'Learn fundamental cybersecurity strategies to protect digital assets and build a secure digital presence.',
         ],
     ],
 ];

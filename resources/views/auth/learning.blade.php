@@ -386,10 +386,10 @@
 
                 @php
                     $learningCards = [
-                        ['img' => '9. Animal care.jpg', 'progress' => 90, 'href' => '#'],
-                        ['img' => '10. Create a startup.jpg', 'progress' => 90, 'href' => '#'],
-                        ['img' => '1. Identity.png', 'progress' => 90, 'href' => '#'],
-                        ['img' => '2. Relationship building digital business base.png', 'progress' => 90, 'href' => '#'],
+                        ['img' => 'Artboard 10.jpg', 'progress' => 90, 'href' => '#'],
+                        ['img' => 'Artboard 11.jpg', 'progress' => 90, 'href' => '#'],
+                        ['img' => 'Artboard 12.jpg', 'progress' => 90, 'href' => '#'],
+                        ['img' => 'Artboard 13.jpg', 'progress' => 90, 'href' => '#'],
                     ];
                     $learningItems = __('learning.items');
                 @endphp

@@ -1379,18 +1379,14 @@ img {
 }
 
 .footer-logo-circle {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background: #fff;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .footer-logo-circle img {
-    max-width: 75px;
+    height: 50px;
+    width: auto;
 }
 
 .footer-brand-section p {
