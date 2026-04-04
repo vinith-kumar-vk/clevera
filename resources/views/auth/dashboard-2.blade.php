@@ -194,10 +194,10 @@
     <footer>
         <div class="footer-brand">
             <img src="{{ asset('images/icons/logo.svg') }}" alt="Logo">
-            <p>Learn anytime and anywhere<br>from Clevera2 career skCleverals</p>
+            <p>Learn anytime and anywhere<br>from Clevera career skCleverals</p>
         </div>
         <div class="footer-col">
-            <ul><li><a href="#">Teach on Clevera2</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li><li><a href="#">Help and Support</a></li></ul>
+            <ul><li><a href="#">Teach on Clevera</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li><li><a href="#">Help and Support</a></li></ul>
         </div>
         <div class="footer-col">
             <ul><li><a href="#">Terms</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Cookies Policy</a></li><li><a href="#">Career</a></li></ul>

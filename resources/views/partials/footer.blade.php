@@ -5,12 +5,12 @@
             <div class="logo-circle-old">
                 <img src="{{ asset('images/icons/logo.svg') }}" alt="Logo">
             </div>
-            <p class="footer-tagline-old">Learn anytime and anywhere<br>from Clevera2 career skCleverals</p>
+            <p class="footer-tagline-old">Learn anytime and anywhere<br>from Clevera career skCleverals</p>
         </div>
 
         <div class="footer-links-container-old">
             <div class="footer-col-old">
-                <a href="#">Teach on Clevera2</a>
+                <a href="#">Teach on Clevera</a>
                 <a href="#">About Us</a>
                 <a href="#">Contact Us</a>
                 <a href="#">Help and Support</a>

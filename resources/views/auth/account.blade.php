@@ -549,12 +549,12 @@
             <div class="logo-circle">
                 <img src="{{ asset('images/icons/logo.svg') }}" alt="Logo">
             </div>
-            <p class="footer-tagline">Learn anytime and anywhere<br>from Clevera2 career skCleverals</p>
+            <p class="footer-tagline">Learn anytime and anywhere<br>from Clevera career skCleverals</p>
         </div>
 
         <div class="footer-links-container">
             <div class="footer-col">
-                <a href="#">Teach on Clevera2</a>
+                <a href="#">Teach on Clevera</a>
                 <a href="#">About Us</a>
                 <a href="#">Contact Us</a>
                 <a href="#">Help and Support</a>

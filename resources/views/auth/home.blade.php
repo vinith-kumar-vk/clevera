@@ -677,7 +677,7 @@
         <div class="home-footer-inner">
             <div class="footer-brand-section">
                 <div class="footer-logo-circle">
-                    <img src="{{ asset('images/logo.png') }}" alt="Clevera2 Logo">
+                    <img src="{{ asset('images/logo.png') }}" alt="Clevera Logo">
                 </div>
                 <p>{{ __('home.footer_tagline') }}</p>
             </div>

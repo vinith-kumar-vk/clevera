@@ -8,7 +8,7 @@
         <!-- Header Section -->
         <div class="login-header">
             <div class="logo-container">
-                <img src="{{ asset('images/logo.png') }}" alt="Clevera2 Logo" class="logo" onerror="this.src='https://placehold.co/180x90/ffffff/0f2b60?text=Clevera%C2%B2+Logo'">
+                <img src="{{ asset('images/logo.png') }}" alt="Clevera Logo" class="logo" onerror="this.src='https://placehold.co/180x90/ffffff/0f2b60?text=Clevera%C2%B2+Logo'">
             </div>
             <h1 class="login-title" style="color: var(--deep-navy);">Enter Verification Code</h1>
         </div>

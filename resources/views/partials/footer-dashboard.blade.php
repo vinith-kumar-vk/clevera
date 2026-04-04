@@ -2,11 +2,11 @@
 <footer class="shared-footer-dashboard">
     <div class="f-brand">
         <div class="f-logo-circle"><img src="{{ asset('images/logo.png') }}" alt="Logo"></div>
-        <p>Learn anytime and anywhere from Clevera2 career skCleverals</p>
+        <p>Learn anytime and anywhere from Clevera career skCleverals</p>
     </div>
     <div class="f-col">
         <ul>
-            <li><a href="#">Teach on Clevera2</a></li>
+            <li><a href="#">Teach on Clevera</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Help and Support</a></li>
