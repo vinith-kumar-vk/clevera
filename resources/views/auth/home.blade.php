@@ -168,7 +168,7 @@
             <!-- LEFT SIDE: Image + Gradients -->
             <!-- LEFT SIDE: Image + Gradients -->
             <div class="hero-left-column">
-                <img src="{{ asset('images/math_bg.png') }}" alt="Hero Image" class="hero-img-math">
+                <img src="{{ asset('images/Artboard 4.jpg') }}" alt="Hero Image" class="hero-img-math">
             </div>
             
             <!-- RIGHT SIDE: Text Content -->
@@ -237,11 +237,11 @@
                 <div class="wide-range-images-custom">
                     <!-- Girl Image -->
                     <div class="wr-img-block wr-img-1">
-                        <img src="{{ asset('images/learning.png') }}" alt="{{ __('home.alt_learning') }}">
+                        <img src="{{ asset('images/Artboard 1.jpg') }}" alt="{{ __('home.alt_learning') }}">
                     </div>
                     <!-- Boy Image (Staggered) -->
                     <div class="wr-img-block wr-img-2">
-                        <img src="{{ asset('images/testing1.png') }}" alt="{{ __('home.alt_deep_focus') }}">
+                        <img src="{{ asset('images/Artboard 1 copy.jpg') }}" alt="{{ __('home.alt_deep_focus') }}">
                     </div>
                 </div>
             </div>
@@ -305,7 +305,7 @@
             
             <div class="live-classes-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
                 @php
-                $live_course_imgs = ['9. Animal care.jpg', '10. Create a startup.jpg', '1. Identity.png'];
+                $live_course_imgs = ['Artboard 10.jpg', 'Artboard 11.jpg', 'Artboard 12.jpg'];
                 $live_course_titles = __('home.live_course_titles');
                 @endphp
                 @foreach($live_course_imgs as $idx => $img)
@@ -363,7 +363,7 @@
         </div>
         <div class="course-cards-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px">
             @php
-            $free_course_imgs = ['9. Animal care.jpg', '10. Create a startup.jpg', '1. Identity.png', '2. Relationship building digital business base.png'];
+            $free_course_imgs = ['Artboard 5.jpg', 'Artboard 6.jpg', 'Artboard 7.jpg', 'Artboard 8.jpg'];
             $free_course_titles = __('home.free_course_titles');
             @endphp
             @foreach($free_course_imgs as $index => $img)
@@ -468,7 +468,7 @@
         </div>
         <div class="course-cards-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px">
             @php
-            $popular_imgs = ['3. drinks.jpg', '4. Business.jpg', '5. Customer management and satisfaction.jpg', '6. Camping tourism education and camping business.png'];
+            $popular_imgs = ['Artboard 13.jpg', 'Artboard 14.jpg', 'Artboard 15.jpg', 'Artboard 16.jpg'];
             $popular_titles = __('home.popular_course_titles');
             @endphp
             @foreach($popular_imgs as $pidx => $img)

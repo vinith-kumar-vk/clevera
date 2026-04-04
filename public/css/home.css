@@ -33,18 +33,18 @@ img {
     height: auto;
 }
 
-.home-header {
+/* .home-header {
     background: #f8fafc;
-    /* Background of the header track */
+   
     position: sticky !important;
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
     z-index: 1000 !important;
     padding: 12px 40px;
-    /* Spacing for the float effect */
+
     margin: 0 !important;
-}
+} */
 
 .home-header-inner {
     max-width: 1440px;
@@ -1535,7 +1535,7 @@ img {
         position: sticky !important;
         top: 0 !important;
         background: #fff !important;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;
@@ -1588,13 +1588,16 @@ img {
 
     /* Hero Section Responsive */
     .hero-step-1-wrapper {
-        padding: 0 !important; /* Remove all padding to kill the grey gap */
-        background-color: #ffffff !important; /* Match the body/hero card color */
+        padding: 0 !important;
+        /* Remove all padding to kill the grey gap */
+        background-color: #ffffff !important;
+        /* Match the body/hero card color */
     }
 
     .hero-step-1-container {
         grid-template-columns: 1fr !important;
-        padding: 40px 20px 0 !important; /* Zero bottom padding inside card */
+        padding: 40px 20px 0 !important;
+        /* Zero bottom padding inside card */
         text-align: center;
         gap: 35px !important;
         height: auto !important;
@@ -1639,7 +1642,8 @@ img {
         display: grid !important;
         grid-template-columns: 1fr !important;
         gap: 20px !important;
-        padding: 0 20px 30px !important; /* Zero top padding to remove gap */
+        padding: 0 20px 30px !important;
+        /* Zero top padding to remove gap */
     }
 
     .feature-card {
@@ -1704,7 +1708,8 @@ img {
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
     }
-    .live-classes-grid > div {
+
+    .live-classes-grid>div {
         flex: 0 0 280px !important;
         max-width: 280px;
         scroll-snap-align: start;
@@ -1721,7 +1726,9 @@ img {
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
     }
-    .course-cards-row > div, .course-cards-row > a {
+
+    .course-cards-row>div,
+    .course-cards-row>a {
         flex: 0 0 280px !important;
         max-width: 280px;
         scroll-snap-align: start;
@@ -1736,7 +1743,8 @@ img {
 
     .career-section,
     .course-section {
-        padding: 20px !important; /* Minimized vertical gaps */
+        padding: 20px !important;
+        /* Minimized vertical gaps */
         margin: 0 !important;
     }
 
