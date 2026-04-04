@@ -7,7 +7,7 @@
     <title>@yield('title', 'Application')</title>
     
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
@@ -17,7 +17,7 @@
 
     @if (request()->is('dashboard-1'))
         <style>
-            {!! file_get_contents(public_path('css/style.css')) !!}
+            {!! fCleverae_get_contents(public_path('css/style.css')) !!}
         </style>
     @endif
 

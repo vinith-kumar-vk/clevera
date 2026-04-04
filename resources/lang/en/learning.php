@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'page_title' => 'Learning | IL² RMUTTO',
+    'page_title' => 'Learning | Clevera² Clevera',
     'page_heading' => 'Learning',
     'tab_ongoing' => 'Ongoing courses',
     'tab_completed' => 'Completed courses',
@@ -26,7 +26,7 @@ return [
         [
             'date' => '01 June 2026',
             'title' => 'Cybersecurity Basics',
-            'description' => 'Learn fundamental cybersecurity strategies to protect digital assets and build a secure digital presence.',
+            'description' => 'Learn fundamental cybersecurity strategies to protect digital assets and buCleverad a secure digital presence.',
         ],
     ],
 ];

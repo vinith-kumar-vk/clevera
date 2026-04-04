@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'page_title' => 'Shopping Cart | IL² RMUTTO',
+    'page_title' => 'Shopping Cart | Clevera² Clevera',
     'heading' => 'Shopping Cart',
     'clear_all' => 'Clear All',
     'course_title' => 'Veterinary Nursing Assistant Course',

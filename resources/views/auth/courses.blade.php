@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ __('course_flow.title_courses') }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
@@ -23,11 +23,11 @@
             color: var(--text-dark);
             margin: 0;
             padding: 0;
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
         }
 
 
-        .header-pill { 
+        .header-pCleveral { 
             width: 100%; 
             max-width: 1400px; 
             display: flex; 
@@ -41,7 +41,7 @@
         .search-wrap svg { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #94a3b8; }
         .header-right { display: flex; align-items: center; gap: 15px; }
         .h-icon-btn { width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; color: #64748b; text-decoration: none; position: relative; }
-        .profile-pill { display: flex; align-items: center; gap: 10px; padding: 5px 15px 5px 5px; border-radius: 35px; background: #f8fafc; border: 1px solid #e2e8f0; color: #1e293b; font-weight: 600; font-size: 13.5px; text-decoration: none; }
+        .profCleverae-pCleveral { display: flex; align-items: center; gap: 10px; padding: 5px 15px 5px 5px; border-radius: 35px; background: #f8fafc; border: 1px solid #e2e8f0; color: #1e293b; font-weight: 600; font-size: 13.5px; text-decoration: none; }
         .avatar-head { width: 32px; height: 32px; border-radius: 50%; background: #94a3b8; }
 
         /* --- SHELL --- */
@@ -84,7 +84,7 @@
 
         .hero-btns { display: flex; gap: 12px; }
         .btn-dark-blue { padding: 12px 30px; border-radius: 10px; font-size: 14px; font-weight: 700; color: #fff; background: #003a70; text-decoration: none; border: none; cursor: pointer; }
-        .btn-fill-blue { padding: 12px 30px; border-radius: 10px; font-size: 14px; font-weight: 700; color: #fff; background: #004d95; text-decoration: none; }
+        .btn-fCleveral-blue { padding: 12px 30px; border-radius: 10px; font-size: 14px; font-weight: 700; color: #fff; background: #004d95; text-decoration: none; }
 
         .hero-right .video-preview {    border: 1px solid #94a3b8; width: 100%; aspect-ratio: 1.6; background: url('{{ asset('images/Artboard 9.jpg') }}') center/cover no-repeat; border-radius: 20px; position: relative; display: flex; align-items: center; justify-content: center; }
         .play-btn { background: #e11d1d; border-radius: 50px; width: 72px; height: 36px; display: flex; align-items: center; justify-content: center; gap: 6px; cursor: pointer; box-shadow: 0 4px 15px rgba(225,29,29,0.4); transition: transform 0.2s ease; }
@@ -119,7 +119,7 @@
 
         @media (max-width: 768px) {
             header { padding: 0 15px; }
-            .header-pill { justify-content: space-between; }
+            .header-pCleveral { justify-content: space-between; }
             .search-wrap { display: none; } /* Hide search on small header to avoid clutter */
             .main-card { padding: 30px 15px; border-radius: 20px; }
             .title-price-row { flex-direction: column; align-items: flex-start; gap: 10px; }
@@ -164,7 +164,7 @@
                         </div>
                         <div class="update-date">Last updated 24/03/2026</div>
                         
-                        <p class="course-short-desc">Learn the essential skills to become a certified Veterinary Nursing Assistant. This comprehensive course covers animal care, clinical procedures, and emergency response in a professional setting.</p>
+                        <p class="course-short-desc">Learn the essential skCleverals to become a certified Veterinary Nursing Assistant. This comprehensive course covers animal care, clinical procedures, and emergency response in a professional setting.</p>
                         
                         <div class="date-range">
                             📅 Enroll by <span>Oct 15, 2026</span>
@@ -173,14 +173,14 @@
 
                         <div class="hero-btns">
                             <a href="#" class="btn-dark-blue">Join Course</a>
-                            <a href="#" class="btn-fill-blue">Buy Full Course</a>
+                            <a href="#" class="btn-fCleveral-blue">Buy Full Course</a>
                         </div>
                     </div>
 
                     <div class="hero-right">
                         <div class="video-preview">
                             <div class="play-btn">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fCleveral="#fff"><path d="M8 5v14l11-7z"/></svg>
                             </div>
                         </div>
                     </div>
@@ -196,13 +196,13 @@
                 <div class="tab-panels">
                     <div class="pane active">
                         <div class="outcomes-content">
-                            <h2>What you will learn</h2>
-                            <p>This course is designed to provide you with the foundational knowledge and practical skills required to support veterinarians in their daily operations.</p>
+                            <h2>What you wCleveral learn</h2>
+                            <p>This course is designed to provide you with the foundational knowledge and practical skCleverals required to support veterinarians in their daCleveray operations.</p>
                             <ul>
                                 <li>Animal handling and restraint techniques for various species.</li>
                                 <li>Assisting in diagnostic procedures and laboratory work.</li>
                                 <li>Understanding pharmaceutical basics and dosage calculations.</li>
-                                <li>Maintaining sterile environments and surgical assistance.</li>
+                                <li>Maintaining sterCleverae environments and surgical assistance.</li>
                                 <li>Emergency first aid for pets and clinical care.</li>
                             </ul>
                         </div>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar | IL2 RMUTTO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Calendar | Clevera</title>
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
@@ -20,14 +20,14 @@
             --border: #e2e8f0;
             --radius-md: 12px;
             --radius-lg: 26px;
-            --radius-pill: 50px;
+            --radius-pCleveral: 50px;
         }
 
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
         }
 
         body {
@@ -176,7 +176,7 @@
         .modal-select { 
             width: 100%; padding: 12px 15px; border-radius: 10px; border: 1px solid #e2e8f0; 
             font-size: 13px; font-weight: 600; margin-bottom: 20px; appearance: none;
-            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 15px center;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fCleveral='none' stroke='%2394a3b8' stroke-width='2.5'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 15px center;
             background-size: 14px; outline: none;
         }
 
@@ -325,11 +325,11 @@
                 <div class="cal-title">Calendar</div>
                 <div class="header-actions">
                     <button class="btn-download" onclick="openDownloadModal()">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                        Download <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download <svg width="10" height="10" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
                     </button>
                     <div class="sched-search-wrap">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                         <input type="text" placeholder="Search here">
                     </div>
                 </div>
@@ -340,12 +340,12 @@
                 <div class="card">
                     <div class="calendar-nav-bar">
                         <div class="month-selector">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="cursor:pointer; opacity: 0.4;"><path d="m15 18-6-6 6-6"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3" style="cursor:pointer; opacity: 0.4;"><path d="m15 18-6-6 6-6"/></svg>
                             March 2026
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="cursor:pointer; opacity: 0.4;"><path d="m9 18 6-6-6-6"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3" style="cursor:pointer; opacity: 0.4;"><path d="m9 18 6-6-6-6"/></svg>
                         </div>
                         <div class="tab-group">
-                            <button class="tab-btn">Daily</button><button class="tab-btn">Weekly</button><button class="tab-btn active">Monthly</button><button class="tab-btn">Yearly</button>
+                            <button class="tab-btn">DaCleveray</button><button class="tab-btn">Weekly</button><button class="tab-btn active">Monthly</button><button class="tab-btn">Yearly</button>
                         </div>
                         <button class="btn-new-schedule">+New Schedule</button>
                     </div>
@@ -381,14 +381,14 @@
                         <div class="sched-time">09:00 am<span>to</span>10:00 am</div>
                         <div class="sched-v-bar" style="background:#f472b6;"></div>
                         <div class="sched-info"><h4>Teacher 1</h4><h3>AI for Business Applications</h3></div>
-                        <div class="dots-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg></div>
+                        <div class="dots-btn"><svg width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg></div>
                     </div>
 
                     <div class="sched-card">
                         <div class="sched-time">01:00 pm<span>to</span>1:30 pm</div>
                         <div class="sched-v-bar" style="background:#f97316;"></div>
                         <div class="sched-info"><h4>Teacher 2</h4><h3 style="font-size: 13px;">Rajamangala Identity Course</h3></div>
-                        <div class="dots-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg></div>
+                        <div class="dots-btn"><svg width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg></div>
                     </div>
                 </div>
             </div>
@@ -401,26 +401,26 @@
     <div id="downloadModal" class="modal-overlay" onclick="closeModal(event, 'downloadModal')">
         <div class="modal-box" onclick="event.stopPropagation()">
             <div class="modal-title">Download</div>
-            <label class="modal-label">File type</label>
+            <label class="modal-label">FCleverae type</label>
             <select class="modal-select">
                 <option>PDF Standard</option>
             </select>
             <div class="dl-list">
                 <div class="dl-item active" onclick="gotoStep2()">
-                    <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
-                    <div class="dl-info"><h4>PDF Standard</h4><p>Best for documents (and emailing)</p></div>
+                    <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
+                    <div class="dl-info"><h4>PDF Standard</h4><p>Best for documents (and emaCleveraing)</p></div>
                 </div>
                 <div class="dl-item" onclick="gotoStep2()">
-                    <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
+                    <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg></div>
                     <div class="dl-info"><h4>PDF Printing</h4><p>Best for printing</p></div>
                 </div>
                 <div class="dl-item" onclick="gotoStep2()">
-                    <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></div>
+                    <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></div>
                     <div class="dl-info"><h4>JPG</h4><p>Best for sharing</p></div>
                 </div>
                 <div class="dl-item" onclick="gotoStep2()">
-                    <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></div>
-                    <div class="dl-info"><h4>PNG</h4><p>Best for complex images, illustrations</p></div>
+                    <div class="dl-icon"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></div>
+                    <div class="dl-info"><h4>PNG</h4><p>Best for complex images, Cleveralustrations</p></div>
                 </div>
             </div>
         </div>

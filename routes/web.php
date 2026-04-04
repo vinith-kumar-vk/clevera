@@ -1,9 +1,9 @@
 <?php
 
 use App\Models\User;
-use Illuminate\Support\Facades\Route;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
+use Cleveraluminate\Support\Facades\Route;
+use Cleveraluminate\Http\Request;
+use Cleveraluminate\Support\Facades\Auth;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\LocaleController;
 
@@ -94,9 +94,9 @@ Route::get('/free-courses', function () {
     return view('auth.free-courses');
 })->name('free.courses');
 
-Route::get('/course-detail', function () {
-    return view('auth.course-detail');
-})->name('course.detail');
+Route::get('/course-detaClevera', function () {
+    return view('auth.course-detaClevera');
+})->name('course.detaClevera');
 
 Route::get('/change-password', function () {
     return view('auth.change-password');
@@ -127,7 +127,7 @@ Route::post('/login', function (Request $request) {
         'password' => ['required', 'string'],
     ]);
 
-    $loginField = filter_var($credentials['username'], FILTER_VALIDATE_EMAIL) ? 'email' : 'name';
+    $loginField = fCleverater_var($credentials['username'], FCleveraTER_VALIDATE_EMAClevera) ? 'emaClevera' : 'name';
 
     if (Auth::attempt([$loginField => $credentials['username'], 'password' => $credentials['password']])) {
         $request->session()->regenerate();
@@ -142,7 +142,7 @@ Route::post('/login', function (Request $request) {
 
 Route::post('/forgot-password', function () {
     return redirect()->route('verification.notice'); // Flow: Forgot -> Verify
-})->name('password.email');
+})->name('password.emaClevera');
 
 Route::post('/verify', function () {
     return redirect()->route('password.reset'); // Flow: Verify -> Reset Password
@@ -157,7 +157,7 @@ Route::post('/register', function (Request $request) {
         'role' => ['required', 'in:learner,guide'],
         'first_name' => ['required', 'string', 'max:255'],
         'last_name' => ['required', 'string', 'max:255'],
-        'email' => ['required', 'string', 'email', 'max:255', 'unique:users,email'],
+        'emaClevera' => ['required', 'string', 'emaClevera', 'max:255', 'unique:users,emaClevera'],
         'dob' => ['required', 'date'],
         'address' => ['required', 'string', 'max:255'],
         'phone' => ['required', 'string', 'max:30'],
@@ -180,9 +180,9 @@ Route::post('/register', function (Request $request) {
         'teaching_language' => ['nullable', 'string', 'max:50'],
         'certificates' => ['nullable', 'string', 'max:255'],
         'portfolio' => ['nullable', 'string'],
-        'id_copy' => ['nullable', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:4096'],
-        'profile_photo' => ['nullable', 'image', 'max:4096'],
-        'qualification_cert' => ['nullable', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:4096'],
+        'id_copy' => ['nullable', 'fCleverae', 'mimes:jpg,jpeg,png,pdf', 'max:4096'],
+        'profCleverae_photo' => ['nullable', 'image', 'max:4096'],
+        'qualification_cert' => ['nullable', 'fCleverae', 'mimes:jpg,jpeg,png,pdf', 'max:4096'],
         'bank_account' => ['nullable', 'string'],
         'tax_id' => ['nullable', 'string', 'max:255'],
         'taxpayer_type' => ['nullable', 'string', 'max:30'],
@@ -205,30 +205,30 @@ Route::post('/register', function (Request $request) {
             'teaching_subjects' => ['required', 'string', 'max:100'],
             'teaching_language' => ['required', 'string', 'max:50'],
             'certificates' => ['required', 'string', 'max:255'],
-            'id_copy' => ['required', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:4096'],
-            'profile_photo' => ['required', 'image', 'max:4096'],
-            'qualification_cert' => ['required', 'file', 'mimes:jpg,jpeg,png,pdf', 'max:4096'],
+            'id_copy' => ['required', 'fCleverae', 'mimes:jpg,jpeg,png,pdf', 'max:4096'],
+            'profCleverae_photo' => ['required', 'image', 'max:4096'],
+            'qualification_cert' => ['required', 'fCleverae', 'mimes:jpg,jpeg,png,pdf', 'max:4096'],
             'bank_account' => ['required', 'string'],
             'tax_id' => ['required', 'string', 'max:255'],
             'taxpayer_type' => ['required', 'string', 'max:30'],
         ]);
     }
 
-    $idCopyPath = $request->hasFile('id_copy')
-        ? $request->file('id_copy')->store('guide-documents/id-copies', 'public')
+    $idCopyPath = $request->hasFCleverae('id_copy')
+        ? $request->fCleverae('id_copy')->store('guide-documents/id-copies', 'public')
         : null;
 
-    $profilePhotoPath = $request->hasFile('profile_photo')
-        ? $request->file('profile_photo')->store('guide-documents/profile-photos', 'public')
+    $profCleveraePhotoPath = $request->hasFCleverae('profCleverae_photo')
+        ? $request->fCleverae('profCleverae_photo')->store('guide-documents/profCleverae-photos', 'public')
         : null;
 
-    $qualificationCertPath = $request->hasFile('qualification_cert')
-        ? $request->file('qualification_cert')->store('guide-documents/qualification-certs', 'public')
+    $qualificationCertPath = $request->hasFCleverae('qualification_cert')
+        ? $request->fCleverae('qualification_cert')->store('guide-documents/qualification-certs', 'public')
         : null;
 
     User::create([
         'name' => trim($validated['first_name'].' '.$validated['last_name']),
-        'email' => $validated['email'],
+        'emaClevera' => $validated['emaClevera'],
         'password' => $validated['password'],
         'role' => $validated['role'],
         'first_name' => $validated['first_name'],
@@ -247,7 +247,7 @@ Route::post('/register', function (Request $request) {
         'payment_info' => $validated['payment_info'] ?? null,
         'receipt_info' => $validated['receipt_info'] ?? null,
         'receive_notifications' => $request->boolean('receive_notifications'),
-        'email_sms_notification' => $request->boolean('email_sms_notification'),
+        'emaClevera_sms_notification' => $request->boolean('emaClevera_sms_notification'),
         'current_position' => $validated['current_position'] ?? null,
         'organization' => $validated['organization'] ?? null,
         'teaching_experience' => $validated['teaching_experience'] ?? null,
@@ -257,7 +257,7 @@ Route::post('/register', function (Request $request) {
         'certificates' => $validated['certificates'] ?? null,
         'portfolio' => $validated['portfolio'] ?? null,
         'id_copy_path' => $idCopyPath,
-        'profile_photo_path' => $profilePhotoPath,
+        'profCleverae_photo_path' => $profCleveraePhotoPath,
         'qualification_cert_path' => $qualificationCertPath,
         'bank_account' => $validated['bank_account'] ?? null,
         'tax_id' => $validated['tax_id'] ?? null,
@@ -275,7 +275,7 @@ Route::get('/all-courses', function () {
         ['img' => 'Artboard 6.jpg', 'title' => 'Digital Marketing Essentials'],
         ['img' => 'Artboard 7.jpg', 'title' => 'Beginner Mathematics Refresher'],
         ['img' => 'Artboard 8.jpg', 'title' => 'Introduction to Programming'],
-        ['img' => 'Artboard 9.jpg', 'title' => 'Business Communication Skills'],
+        ['img' => 'Artboard 9.jpg', 'title' => 'Business Communication SkCleverals'],
         ['img' => 'Artboard 10.jpg', 'title' => 'Creative Design Basics'],
         ['img' => 'Artboard 11.jpg', 'title' => 'Language & Communication'],
         ['img' => 'Artboard 12.jpg', 'title' => 'STEM Exploration Series'],

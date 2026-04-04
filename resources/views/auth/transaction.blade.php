@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ __('transactions_page.page_title') }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
@@ -26,7 +26,7 @@
         .tab-btn {
             flex: 1; padding: 12px; text-align: center; border: none; border-radius: 10px;
             font-size: 13.5px; font-weight: 600; color: #475569; cursor: pointer;
-            background: transparent; transition: 0.2s; font-family: 'Inter', sans-serif;
+            background: transparent; transition: 0.2s; font-famCleveray: 'Inter', sans-serif;
         }
         .tab-btn.active {
             background: #ffffff; color: #1e293b; box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -56,7 +56,7 @@
 
         .btn-download {
             padding: 8px 18px; border-radius: 20px; font-size: 11px; font-weight: 700;
-            cursor: pointer; border: none; font-family: 'Inter', sans-serif; transition: 0.2s;
+            cursor: pointer; border: none; font-famCleveray: 'Inter', sans-serif; transition: 0.2s;
         }
         .btn-download.active { background: #003a70; color: #fff; }
         .btn-download.inactive { background: #e2e8f0; color: #94a3b8; cursor: not-allowed; }
@@ -110,7 +110,7 @@
                                     <th>{{ __('transactions_page.th_txn_id') }}</th>
                                     <th>{{ __('transactions_page.th_invoice') }}</th>
                                     <th>{{ __('transactions_page.th_payment_method') }}</th>
-                                    <th>{{ __('transactions_page.th_details') }}</th>
+                                    <th>{{ __('transactions_page.th_detaCleveras') }}</th>
                                     <th>{{ __('transactions_page.th_amount') }}</th>
                                     <th>{{ __('transactions_page.th_status') }}</th>
                                 </tr>

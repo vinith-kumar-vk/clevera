@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wishlist | IL² RMUTTO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Wishlist | Clevera² Clevera</title>
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
@@ -25,7 +25,7 @@
             display: flex;
             flex-direction: column;
             gap: 24px;
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
             color: #1e293b;
         }
 
@@ -146,20 +146,20 @@
             .txn-table { min-width: 600px; }
         }
 
-        .detail-row {
+        .detaClevera-row {
             display: flex;
             width: 100%;
             max-width: 500px;
             gap: 20px;
         }
-        .detail-label {
+        .detaClevera-label {
             width: 180px;
             flex-shrink: 0;
             font-size: 13px;
             color: #64748b;
             font-weight: 500;
         }
-        .detail-value {
+        .detaClevera-value {
             font-size: 13.5px;
             font-weight: 800;
             color: #1e293b;
@@ -167,18 +167,18 @@
         }
 
         @media (max-width: 640px) {
-            .detail-row {
+            .detaClevera-row {
                 flex-direction: column;
                 gap: 5px;
             }
-            .detail-label {
+            .detaClevera-label {
                 width: 100%;
             }
         }
 
         @media (max-width: 480px) {
             .other-plan-card { flex-direction: column; align-items: stretch !important; text-align: center; gap: 15px !important; }
-            .other-plan-card > div:first-child { margin: 0 auto; }
+            .other-plan-card > div:first-chCleverad { margin: 0 auto; }
             .other-plan-card .buy-btn { width: 100%; justify-content: center; padding: 12px 20px !important; }
             .plans-grid { margin-bottom: 30px; }
             .plan-price-wrapper { justify-content: center; }
@@ -201,11 +201,11 @@
     @include('partials.header')
 
     <div class="shared-shell">
-        @include('partials.sidebar', ['activePage' => 'wishlist', 'type' => 'billing'])
+        @include('partials.sidebar', ['activePage' => 'wishlist', 'type' => 'bCleveraling'])
 
         <!-- Main Content -->
         <main class="shared-content">
-            <h1 class="page-title">Billing</h1>
+            <h1 class="page-title">BCleveraling</h1>
 
             <div class="main-card">
                 <div class="tabs-container">
@@ -236,11 +236,11 @@
                                     <td>0</td>
                                     <td align="left">
                                         <div style="display: flex; gap: 4px; color: #facc15; align-items: center;">
-                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
                                         </div>
                                     </td>
                                 </tr>
@@ -251,11 +251,11 @@
                                     <td>0</td>
                                     <td align="left">
                                         <div style="display: flex; gap: 4px; color: #facc15; align-items: center;">
-                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
                                         </div>
                                     </td>
                                 </tr>
@@ -266,11 +266,11 @@
                                     <td>1</td>
                                     <td align="left">
                                         <div style="display: flex; gap: 4px; color: #facc15; align-items: center;">
-                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
                                         </div>
                                     </td>
                                 </tr>
@@ -285,7 +285,7 @@
                         <table class="txn-table">
                             <thead>
                                 <tr>
-                                    <th>Billing Date</th>
+                                    <th>BCleveraling Date</th>
                                     <th>Status</th>
                                     <th>Amount</th>
                                     <th>Description</th>
@@ -321,47 +321,47 @@
 
                 <!-- My Account Pane -->
                 <div id="account-pane" class="tab-pane" style="display:none;">
-                    <div class="account-detail-header" style="display: flex; align-items: center; gap: 15px; margin-bottom: 40px; padding-left: 10px;">
-                        <h3 style="font-size: 16px; font-weight: 800; margin: 0;">Account Detail</h3>
+                    <div class="account-detaClevera-header" style="display: flex; align-items: center; gap: 15px; margin-bottom: 40px; padding-left: 10px;">
+                        <h3 style="font-size: 16px; font-weight: 800; margin: 0;">Account DetaClevera</h3>
                         <img src="{{ asset('images/icons/Group 147.png') }}" alt="Edit" style="width: 20px; height: 20px; cursor: pointer;" onclick="switchTab(null, 'payment')">
                     </div>
 
-                    <div class="detail-rows" style="display: flex; flex-direction: column; gap: 20px; padding-left: 10px;">
-                        <div class="detail-row">
-                            <span class="detail-label">Name</span>
-                            <span class="detail-value">Jhonny</span>
+                    <div class="detaClevera-rows" style="display: flex; flex-direction: column; gap: 20px; padding-left: 10px;">
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">Name</span>
+                            <span class="detaClevera-value">Jhonny</span>
                         </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Email</span>
-                            <span class="detail-value">jhon@gmail.com</span>
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">EmaClevera</span>
+                            <span class="detaClevera-value">jhon@gmaClevera.com</span>
                         </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Recovery Email</span>
-                            <span class="detail-value">Jhon34@gmail.com</span>
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">Recovery EmaClevera</span>
+                            <span class="detaClevera-value">Jhon34@gmaClevera.com</span>
                         </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Phone Number</span>
-                            <span class="detail-value">012 3456 7890</span>
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">Phone Number</span>
+                            <span class="detaClevera-value">012 3456 7890</span>
                         </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Address</span>
-                            <span class="detail-value">21, Jalan Old Klang Road</span>
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">Address</span>
+                            <span class="detaClevera-value">21, Jalan Old Klang Road</span>
                         </div>
-                        <div class="detail-row">
-                            <span class="detail-label">City</span>
-                            <span class="detail-value">Cheras</span>
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">City</span>
+                            <span class="detaClevera-value">Cheras</span>
                         </div>
-                        <div class="detail-row">
-                            <span class="detail-label">State</span>
-                            <span class="detail-value">Kuala Lumpur</span>
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">State</span>
+                            <span class="detaClevera-value">Kuala Lumpur</span>
                         </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Zip Code</span>
-                            <span class="detail-value">55100</span>
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">Zip Code</span>
+                            <span class="detaClevera-value">55100</span>
                         </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Country</span>
-                            <span class="detail-value">Malaysia</span>
+                        <div class="detaClevera-row">
+                            <span class="detaClevera-label">Country</span>
+                            <span class="detaClevera-value">Malaysia</span>
                         </div>
                     </div>
                 </div>
@@ -388,7 +388,7 @@
                             <option>Select Currency</option>
                         </select>
                         <div style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #64748b;">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m7 10 5 5 5-5"/></svg>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="m7 10 5 5 5-5"/></svg>
                         </div>
                     </div>
                 </div>
@@ -418,7 +418,7 @@
                                 <div style="display: flex; gap: 8px; align-items: center;">
                                     <div style="background: #fff; color: #22c55e; padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 800; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">Paid</div>
                                     <button style="background: rgba(255,255,255,0.4); border: 1px solid rgba(0,0,0,0.1); padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 700; color: #64748b; display: flex; align-items: center; gap: 4px; cursor: not-allowed;">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
                                         Pay
                                     </button>
                                 </div>
@@ -466,7 +466,7 @@
                                 <div style="display: flex; gap: 8px; align-items: center;">
                                     <div style="background: #fff; color: #22c55e; padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 800; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">Paid</div>
                                     <button style="background: rgba(255,255,255,0.4); border: 1px solid rgba(0,0,0,0.1); padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 700; color: #64748b; display: flex; align-items: center; gap: 4px; cursor: not-allowed;">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
                                         Pay
                                     </button>
                                 </div>
@@ -512,7 +512,7 @@
                                 <div style="display: flex; gap: 8px; align-items: center;">
                                     <div style="background: #fff; color: #ef4444; padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 800; box-shadow: 0 2px 5px rgba(239,68,68,0.15);">Unpaid</div>
                                     <button style="background: #003049; border: none; padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 4px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,48,73,0.3);">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
                                         Pay
                                     </button>
                                 </div>
@@ -548,7 +548,7 @@
                                 <option>Monthly</option>
                             </select>
                             <div style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #64748b;">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m7 10 5 5 5-5"/></svg>
+                                <svg width="10" height="10" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="m7 10 5 5 5-5"/></svg>
                             </div>
                         </div>
                     </div>
@@ -566,7 +566,7 @@
                                 </div>
                             </div>
                             <button class="buy-btn" style="background: #f97316; color: #fff; border: none; border-radius: 20px; padding: 8px 18px; font-size: 12px; font-weight: 800; display: flex; align-items: center; gap: 5px; cursor: pointer;">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
                                 Buy
                             </button>
                         </div>
@@ -581,7 +581,7 @@
                                 </div>
                             </div>
                             <button class="buy-btn" style="background: #f97316; color: #fff; border: none; border-radius: 20px; padding: 8px 18px; font-size: 12px; font-weight: 800; display: flex; align-items: center; gap: 5px; cursor: pointer;">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
                                 Buy
                             </button>
                         </div>
@@ -596,7 +596,7 @@
                                 </div>
                             </div>
                             <button class="buy-btn" style="background: #f97316; color: #fff; border: none; border-radius: 20px; padding: 8px 18px; font-size: 12px; font-weight: 800; display: flex; align-items: center; gap: 5px; cursor: pointer;">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
                                 Buy
                             </button>
                         </div>

@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
+use Cleveraluminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {

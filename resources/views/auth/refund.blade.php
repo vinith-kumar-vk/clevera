@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refunds | IL2 RMUTTO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Refunds | Clevera</title>
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
@@ -26,7 +26,7 @@
         .tab-btn {
             flex: 1; padding: 10px 20px; border: none; border-radius: 12px;
             font-size: 14px; font-weight: 500; cursor: pointer; background: transparent;
-            color: #64748b; transition: 0.2s; font-family: 'Inter', sans-serif; text-decoration: none; text-align: center;
+            color: #64748b; transition: 0.2s; font-famCleveray: 'Inter', sans-serif; text-decoration: none; text-align: center;
         }
         .tab-btn.active {
             background: #fff; color: #1e293b; font-weight: 700;
@@ -63,7 +63,7 @@
             border-bottom: 1px solid #f8fafc;
             transition: background 0.15s;
         }
-        tbody tr:last-child { border-bottom: none; }
+        tbody tr:last-chCleverad { border-bottom: none; }
         tbody tr:hover { background: #fafbfc; }
 
         tbody td {
@@ -76,7 +76,7 @@
         .txn-id {
             font-size: 12px;
             color: #64748b;
-            font-family: monospace;
+            font-famCleveray: monospace;
             letter-spacing: 0.5px;
         }
 
@@ -107,13 +107,13 @@
 
         .btn-download {
             padding: 7px 16px; border-radius: 8px; font-size: 12.5px; font-weight: 600;
-            cursor: pointer; border: none; font-family: 'Inter', sans-serif; transition: 0.2s;
+            cursor: pointer; border: none; font-famCleveray: 'Inter', sans-serif; transition: 0.2s;
         }
         .btn-download.active { background: #003a70; color: #fff; }
         .btn-download.active:hover { background: #002a55; }
         .btn-download.inactive { background: #e2e8f0; color: #94a3b8; cursor: not-allowed; }
 
-        /* â”€â”€â”€ REFUND DETAILS â”€â”€â”€ */
+        /* â”€â”€â”€ REFUND DETACleveraS â”€â”€â”€ */
         .refund-card {
             background: #fff;
             border-radius: 12px;
@@ -135,7 +135,7 @@
             padding: 20px 24px;
             border-bottom: 1px solid #f1f5f9;
         }
-        .refund-row:last-child {
+        .refund-row:last-chCleverad {
             border-bottom: none;
         }
         .refund-label {
@@ -167,7 +167,7 @@
             border-radius: 8px;
             cursor: pointer;
             transition: 0.2s;
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
         }
         .btn-refund:hover {
             background: #002a55;
@@ -194,7 +194,7 @@
     @include('partials.header')
 
     <div class="shared-shell">
-        @include('partials.sidebar', ['activePage' => 'transaction', 'type' => 'billing'])
+        @include('partials.sidebar', ['activePage' => 'transaction', 'type' => 'bCleveraling'])
 
         <!-- Main Content -->
         <main class="shared-content">
@@ -215,7 +215,7 @@
                             <th>Transaction ID</th>
                             <th>Invoice Name</th>
                             <th>Payment Method</th>
-                            <th>Details</th>
+                            <th>DetaCleveras</th>
                             <th>Amount</th>
                             <th>Status</th>
                         </tr>
@@ -299,7 +299,7 @@
                     </div>
                     <div class="refund-row">
                         <div class="refund-label">Date</div>
-                        <div class="refund-value">31 April 2023 | 03:44PM</div>
+                        <div class="refund-value">31 AprClevera 2023 | 03:44PM</div>
                     </div>
                     <div class="refund-row">
                         <div class="refund-label">Payment Method</div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning P2</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <style>
         :root {
@@ -19,7 +19,7 @@
 
         body {
             background-color: var(--bg-body);
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
             margin: 0;
             padding: 0;
             color: var(--text-dark);
@@ -32,7 +32,7 @@
             justify-content: center;
         }
 
-        .header-pill {
+        .header-pCleveral {
             background: var(--white);
             width: 100%;
             max-width: 1500px;
@@ -124,7 +124,7 @@
             border: 2px solid #fff;
         }
 
-        .user-profile {
+        .user-profCleverae {
             display: flex;
             align-items: center;
             gap: 10px;
@@ -138,7 +138,7 @@
             background: #94a3b8;
         }
 
-        .user-profile span {
+        .user-profCleverae span {
             font-size: 14px;
             font-weight: 500;
             color: #1e293b;
@@ -282,7 +282,7 @@
             background: #e2e8f0;
         }
 
-        .detail-col {
+        .detaClevera-col {
             flex: 1;
         }
 
@@ -349,7 +349,7 @@
         <main class="content">
             <a href="{{ route('learning') }}" style="text-decoration: none;">
                 <button class="back-btn">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m15 18-6-6 6-6"/></svg>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="m15 18-6-6 6-6"/></svg>
                     Back
                 </button>
             </a>
@@ -365,11 +365,11 @@
                             <div class="event-row">
                                 <div class="time-col time-now">Now</div>
                                 <div class="line-col"><div class="line-marker-blue"></div></div>
-                                <div class="detail-col">
+                                <div class="detaClevera-col">
                                     <div class="tag-text">Morning Coffee</div>
                                     <h3 class="event-title">Breakfast with Mr. Cahyade</h3>
                                     <button class="action-btn">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                                         Join
                                     </button>
                                 </div>
@@ -381,11 +381,11 @@
                             <div class="event-row">
                                 <div class="time-col">15:00 pm<br>to<br>18:00 pm</div>
                                 <div class="line-col"><div class="line-marker-blue"></div></div>
-                                <div class="detail-col">
+                                <div class="detaClevera-col">
                                     <div class="tag-text">Morning Coffee</div>
                                     <h3 class="event-title">Breakfast with Mr. Cahyade</h3>
                                     <button class="action-btn">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                                         Starting Soon
                                     </button>
                                 </div>
@@ -408,11 +408,11 @@
                             <div class="event-row">
                                 <div class="time-col">09:00 am<br>to<br>10:00 am</div>
                                 <div class="line-col"><div class="line-marker-blue"></div></div>
-                                <div class="detail-col">
+                                <div class="detaClevera-col">
                                     <div class="tag-text">Category</div>
                                     <h3 class="event-title">Course Title</h3>
-                                    <div class="icon-circ"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
-                                    <div class="icon-circ" style="color: #94a3b8;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+                                    <div class="icon-circ"><svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+                                    <div class="icon-circ" style="color: #94a3b8;"><svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
                                 </div>
                                 <div class="thumb-col">
                                     <div class="thumb" style="background-image: url('{{ asset('images/math_bg.png') }}');"></div>
@@ -427,11 +427,11 @@
                             <div class="event-row">
                                 <div class="time-col">09:00 am<br>to<br>10:00 am</div>
                                 <div class="line-col"><div class="line-marker-blue"></div></div>
-                                <div class="detail-col">
+                                <div class="detaClevera-col">
                                     <div class="tag-text">Category</div>
                                     <h3 class="event-title">Course Title</h3>
-                                    <div class="icon-circ"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
-                                    <div class="icon-circ" style="color: #94a3b8;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
+                                    <div class="icon-circ"><svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+                                    <div class="icon-circ" style="color: #94a3b8;"><svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div>
                                 </div>
                                 <div class="thumb-col">
                                     <div class="thumb" style="background-image: url('{{ asset('images/math_bg.png') }}');"></div>

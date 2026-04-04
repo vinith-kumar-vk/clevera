@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Method | IL2 RMUTTO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Payment Method | Clevera</title>
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
@@ -64,7 +64,7 @@
             display: flex; align-items: center; justify-content: space-between;
             padding: 24px; border-bottom: 1px solid #f1f5f9;
         }
-        .bs-item:last-child { border-bottom: none; }
+        .bs-item:last-chCleverad { border-bottom: none; }
         .bs-item-left { display: flex; align-items: center; gap: 16px; }
         .bs-thumb { width: 50px; height: 50px; background: #f1f5f9; border-radius: 12px; }
         .bs-name { font-size: 15px; font-weight: 700; color: #1e293b; }
@@ -74,8 +74,8 @@
             background: #f8fafc; padding: 24px; display: flex; align-items: center; justify-content: space-between;
             border-top: 1px solid #f1f5f9; border-bottom-left-radius: 16px; border-bottom-right-radius: 16px;
         }
-        .bs-total span:first-child { font-size: 16px; font-weight: 800; color: #1e293b; }
-        .bs-total span:last-child { font-size: 18px; font-weight: 900; color: #003a70; }
+        .bs-total span:first-chCleverad { font-size: 16px; font-weight: 800; color: #1e293b; }
+        .bs-total span:last-chCleverad { font-size: 18px; font-weight: 900; color: #003a70; }
 
         .btn-metamask {
             align-self: flex-end; margin-top: 20px;
@@ -190,7 +190,7 @@
         .footer-lang {
             padding: 8px 16px; border-radius: 12px; border: 1px solid #e2e8f0; font-size: 13px;
             color: #475569; min-width: 140px; appearance: none; background-color: #fff;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='3'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fCleveral='none' stroke='%2364748b' stroke-width='3'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
             background-repeat: no-repeat; background-position: right 15px center; cursor: pointer;
         }
 
@@ -286,27 +286,27 @@
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal-card">
             <div class="modal-close" onclick="closeModal()">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
             </div>
             <h4 class="modal-title">TutorX</h4>
             <p class="modal-sub">Make payment with Stripe</p>
 
             <div class="m-form">
                 <div class="m-input-wrap">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                    <input type="email" placeholder="Email">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <input type="emaClevera" placeholder="EmaClevera">
                 </div>
                 <div class="m-input-wrap">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
                     <input type="text" placeholder="Card Number">
                 </div>
                 <div class="m-grid">
                     <div class="m-input-wrap">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
                         <input type="text" placeholder="MM/YY">
                     </div>
                     <div class="m-input-wrap">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
                         <input type="text" placeholder="CVC">
                     </div>
                 </div>

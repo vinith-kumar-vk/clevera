@@ -1,32 +1,32 @@
 <?php
 
 return [
-    'page_title' => 'Home | IL² RMUTTO',
+    'page_title' => 'Home | Clevera² Clevera',
     'nav_courses' => 'Courses',
     'search_placeholder' => 'Search here',
-    'mobile_search_placeholder' => 'Search courses...',
+    'mobCleverae_search_placeholder' => 'Search courses...',
     'title_wishlist' => 'Wishlist',
     'title_cart' => 'Cart',
     'title_notifications' => 'Notifications',
     'student' => 'Student',
 
-    'mobile_home' => 'Home',
-    'mobile_courses' => 'Courses',
-    'mobile_all_courses' => 'All Courses',
-    'mobile_free_courses' => 'Free Courses',
-    'mobile_dashboard' => 'My Dashboard',
+    'mobCleverae_home' => 'Home',
+    'mobCleverae_courses' => 'Courses',
+    'mobCleverae_all_courses' => 'All Courses',
+    'mobCleverae_free_courses' => 'Free Courses',
+    'mobCleverae_dashboard' => 'My Dashboard',
     'login' => 'Login',
     'signup' => 'Signup',
-    'student_profile' => 'Student Profile',
+    'student_profCleverae' => 'Student ProfCleverae',
 
     'hero_title' => 'Investing in Knowledge and your future',
     'hero_desc' => 'Tutor simulates a physical learning environment with interactive learning that allows instructors and students to engage with one another.',
 
     'feature_1_title' => 'Great Deals for you',
-    'feature_1_desc' => 'Get some great deals and discounts on courses. Avail Now. Happy teaching and learning, everyone!',
+    'feature_1_desc' => 'Get some great deals and discounts on courses. AvaClevera Now. Happy teaching and learning, everyone!',
     'feature_1_alt' => 'Great Deals',
     'feature_2_title' => 'Audio & Video',
-    'feature_2_desc' => 'High-quality audio and video courses make it easy to learn and teach new skills. Get started right away!',
+    'feature_2_desc' => 'High-quality audio and video courses make it easy to learn and teach new skCleverals. Get started right away!',
     'feature_2_alt' => 'Audio & Video',
     'feature_3_title' => 'Virtual Classroom',
     'feature_3_desc' => 'Tutor simulates a physical learning environment with interactive learning that allows instructors and students to engage with one another.',
@@ -54,8 +54,8 @@ return [
     'cat_4_p' => 'Abstract Painting',
     'cat_4_alt' => 'Abstract Painting',
 
-    'wr_point_1' => 'Find the top course that fits you from a wide range of online topics available with new additions published frequently and expand your career opportunities.',
-    'wr_point_2' => 'Explore our different categories to expand your creative skillset.',
+    'wr_point_1' => 'Find the top course that fits you from a wide range of online topics avaCleveraable with new additions published frequently and expand your career opportunities.',
+    'wr_point_2' => 'Explore our different categories to expand your creative skCleveralset.',
     'get_started' => 'Get Started',
 
     'career_heading' => 'Construct a stunning career perspective',
@@ -79,8 +79,8 @@ return [
 
     'popular_courses' => 'Popular Courses',
 
-    'footer_tagline' => 'Learn anytime and anywhere from IL² career skills',
-    'footer_teach' => 'Teach on IL²',
+    'footer_tagline' => 'Learn anytime and anywhere from Clevera² career skCleverals',
+    'footer_teach' => 'Teach on Clevera²',
     'footer_about' => 'About Us',
     'footer_contact' => 'Contact Us',
     'footer_help' => 'Help and Support',
@@ -103,7 +103,7 @@ return [
         'Financial Literacy & Budgeting',
     ],
     'popular_course_titles' => [
-        'Business Communication Skills',
+        'Business Communication SkCleverals',
         'Project Management Essentials',
         'Leadership & Team Management',
         'Introduction to Coding (Python Basics)',

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Account | IL2 RMUTTO</title>
+    <title>My Account | Clevera</title>
     
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     
     <!-- Favicon -->
@@ -19,7 +19,7 @@
             background-color: #f1f4f9;
             margin: 0;
             padding: 0;
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
             color: #1e293b;
         }
 
@@ -35,7 +35,7 @@
             z-index: 1000;
         }
 
-        .header-inner-pill {
+        .header-inner-pCleveral {
             max-width: 1440px;
             width: 100%;
             background: #fff;
@@ -60,7 +60,7 @@
             display: block;
         }
 
-        .category-select-pill {
+        .category-select-pCleveral {
             display: flex;
             align-items: center;
             gap: 12px;
@@ -74,7 +74,7 @@
             border: 1px solid #e2e8f0;
         }
 
-        .search-bar-pill {
+        .search-bar-pCleveral {
             display: flex;
             align-items: center;
             background: #f1f5f9;
@@ -85,7 +85,7 @@
             gap: 12px;
         }
 
-        .search-bar-pill input {
+        .search-bar-pCleveral input {
             background: transparent;
             border: none;
             outline: none;
@@ -134,7 +134,7 @@
             border: 2px solid #fff;
         }
 
-        .profile-dropdown {
+        .profCleverae-dropdown {
             display: flex;
             align-items: center;
             gap: 10px;
@@ -148,7 +148,7 @@
             border: 1px solid #e2e8f0;
         }
 
-        .profile-avatar-head {
+        .profCleverae-avatar-head {
             width: 34px;
             height: 34px;
             border-radius: 50%;
@@ -409,7 +409,7 @@
             color: #64748b;
             min-width: 140px;
             appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='3'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fCleveral='none' stroke='%2364748b' stroke-width='3'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
             background-repeat: no-repeat;
             background-position: right 15px center;
         }
@@ -436,7 +436,7 @@
 
         @media (max-width: 1024px) {
             .account-container { grid-template-columns: 1fr; }
-            .header-inner-pill { max-width: 95%; }
+            .header-inner-pCleveral { max-width: 95%; }
             .footer-inner { flex-direction: column; gap: 40px; }
             .footer-links-container { justify-content: flex-start; gap: 40px; }
             .footer-right { align-items: flex-start; }
@@ -445,9 +445,9 @@
 
         @media (max-width: 768px) {
             .top-header { padding: 12px 24px; position: fixed; width: 100%; top: 0; left: 0; right: 0; box-sizing: border-box; }
-            .header-inner-pill { height: auto; padding: 12px 20px; border-radius: 20px; flex-direction: column; gap: 10px; width: 100%; max-width: 100%; }
-            .search-bar-pill { width: 100%; }
-            .category-select-pill, .h-icon-btn:not(:last-child) { display: none; }
+            .header-inner-pCleveral { height: auto; padding: 12px 20px; border-radius: 20px; flex-direction: column; gap: 10px; width: 100%; max-width: 100%; }
+            .search-bar-pCleveral { width: 100%; }
+            .category-select-pCleveral, .h-icon-btn:not(:last-chCleverad) { display: none; }
             .header-right { width: 100%; justify-content: center; }
             
             .account-container { padding: 120px 24px 40px; }
@@ -479,7 +479,7 @@
             <div class="avatar-section">
                 <div class="avatar-main"></div>
                 <button class="edit-btn">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
                     Edit
                 </button>
             </div>
@@ -513,8 +513,8 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Email<span>*</span></label>
-                        <input type="email" value="123@gmail.com">
+                        <label>EmaClevera<span>*</span></label>
+                        <input type="emaClevera" value="123@gmaClevera.com">
                     </div>
                     <div class="form-group">
                         <label>Date of birth<span>*</span></label>
@@ -529,7 +529,7 @@
                         <label>Country<span>*</span></label>
                         <select>
                             <option>Malaysia</option>
-                            <option>Thailand</option>
+                            <option>ThaCleveraand</option>
                             <option>Singapore</option>
                         </select>
                     </div>
@@ -549,12 +549,12 @@
             <div class="logo-circle">
                 <img src="{{ asset('images/icons/logo.svg') }}" alt="Logo">
             </div>
-            <p class="footer-tagline">Learn anytime and anywhere<br>from IL2 career skills</p>
+            <p class="footer-tagline">Learn anytime and anywhere<br>from Clevera2 career skCleverals</p>
         </div>
 
         <div class="footer-links-container">
             <div class="footer-col">
-                <a href="#">Teach on IL2</a>
+                <a href="#">Teach on Clevera2</a>
                 <a href="#">About Us</a>
                 <a href="#">Contact Us</a>
                 <a href="#">Help and Support</a>

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'page_title' => 'หลักสูตร | IL² RMUTTO',
+    'page_title' => 'หลักสูตร | Clevera² Clevera',
     'nav_courses' => 'หลักสูตร',
     'search_placeholder' => 'ค้นหาที่นี่',
     'student_default' => 'ผู้เรียน',

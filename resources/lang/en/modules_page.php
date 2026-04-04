@@ -2,7 +2,7 @@
 
 return [
     'intro_title' => 'There are 17 modules in this course',
-    'intro_text' => 'This course provides comprehensive training for veterinary nursing assistants, covering animal care, health management, business operations, and relevant laws. You will progress through theoretical concepts and practical applications to prepare for a professional career in animal healthcare and pet business management.',
+    'intro_text' => 'This course provides comprehensive training for veterinary nursing assistants, covering animal care, health management, business operations, and relevant laws. You wCleveral progress through theoretical concepts and practical applications to prepare for a professional career in animal healthcare and pet business management.',
     'hours_unit' => 'hours',
     'clos_label' => 'CLOs',
     'row_teaching' => 'Teaching & Learning:',

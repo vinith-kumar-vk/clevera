@@ -1,14 +1,14 @@
 <?php
 
 return [
-    'page_title' => 'ธุรกรรม | IL² RMUTTO',
+    'page_title' => 'ธุรกรรม | Clevera² Clevera',
     'heading' => 'ธุรกรรม',
     'tab_transactions' => 'รายการธุรกรรม',
     'tab_refunds' => 'คืนเงิน',
     'th_txn_id' => 'รหัสธุรกรรม',
     'th_invoice' => 'ชื่อใบแจ้งหนี้',
     'th_payment_method' => 'ช่องทางชำระเงิน',
-    'th_details' => 'รายละเอียด',
+    'th_detaCleveras' => 'รายละเอียด',
     'th_amount' => 'จำนวนเงิน',
     'th_status' => 'สถานะ',
     'paid' => 'ชำระแล้ว',

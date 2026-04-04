@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'page_title' => 'ตะกร้าสินค้า | IL² RMUTTO',
+    'page_title' => 'ตะกร้าสินค้า | Clevera² Clevera',
     'heading' => 'ตะกร้าสินค้า',
     'clear_all' => 'ล้างทั้งหมด',
     'course_title' => 'หลักสูตรผู้ช่วยพยาบาลสัตวแพทย์',

@@ -1,23 +1,23 @@
 <?php
 
 return [
-    'page_title' => 'หน้าแรก | IL² RMUTTO',
+    'page_title' => 'หน้าแรก | Clevera² Clevera',
     'nav_courses' => 'หลักสูตร',
     'search_placeholder' => 'ค้นหาที่นี่',
-    'mobile_search_placeholder' => 'ค้นหาหลักสูตร...',
+    'mobCleverae_search_placeholder' => 'ค้นหาหลักสูตร...',
     'title_wishlist' => 'รายการโปรด',
     'title_cart' => 'ตะกร้า',
     'title_notifications' => 'การแจ้งเตือน',
     'student' => 'ผู้เรียน',
 
-    'mobile_home' => 'หน้าแรก',
-    'mobile_courses' => 'หลักสูตร',
-    'mobile_all_courses' => 'หลักสูตรทั้งหมด',
-    'mobile_free_courses' => 'หลักสูตรฟรี',
-    'mobile_dashboard' => 'แดชบอร์ดของฉัน',
+    'mobCleverae_home' => 'หน้าแรก',
+    'mobCleverae_courses' => 'หลักสูตร',
+    'mobCleverae_all_courses' => 'หลักสูตรทั้งหมด',
+    'mobCleverae_free_courses' => 'หลักสูตรฟรี',
+    'mobCleverae_dashboard' => 'แดชบอร์ดของฉัน',
     'login' => 'เข้าสู่ระบบ',
     'signup' => 'สมัครสมาชิก',
-    'student_profile' => 'โปรไฟล์ผู้เรียน',
+    'student_profCleverae' => 'โปรไฟล์ผู้เรียน',
 
     'hero_title' => 'ลงทุนในความรู้และอนาคตของคุณ',
     'hero_desc' => 'แพลตฟอร์มจำลองบรรยากาศการเรียนรู้แบบมีปฏิสัมพันธ์ ให้อาจารย์และผู้เรียนมีส่วนร่วมร่วมกัน',
@@ -79,8 +79,8 @@ return [
 
     'popular_courses' => 'หลักสูตรยอดนิยม',
 
-    'footer_tagline' => 'เรียนรู้ได้ทุกที่ทุกเวลากับทักษะอาชีพ IL²',
-    'footer_teach' => 'สอนบน IL²',
+    'footer_tagline' => 'เรียนรู้ได้ทุกที่ทุกเวลากับทักษะอาชีพ Clevera²',
+    'footer_teach' => 'สอนบน Clevera²',
     'footer_about' => 'เกี่ยวกับเรา',
     'footer_contact' => 'ติดต่อเรา',
     'footer_help' => 'ช่วยเหลือและสนับสนุน',

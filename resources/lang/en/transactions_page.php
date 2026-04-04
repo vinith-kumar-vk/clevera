@@ -1,14 +1,14 @@
 <?php
 
 return [
-    'page_title' => 'Transaction | IL² RMUTTO',
+    'page_title' => 'Transaction | Clevera² Clevera',
     'heading' => 'Transaction',
     'tab_transactions' => 'Transactions',
     'tab_refunds' => 'Refunds',
     'th_txn_id' => 'Transaction ID',
     'th_invoice' => 'Invoice Name',
     'th_payment_method' => 'Payment Method',
-    'th_details' => 'Details',
+    'th_detaCleveras' => 'DetaCleveras',
     'th_amount' => 'Amount',
     'th_status' => 'Status',
     'paid' => 'Paid',
@@ -20,7 +20,7 @@ return [
     'teacher_3' => 'Teacher 3',
     'course_1' => 'Veterinary Nursing Assistant Course',
     'course_2' => 'Rajamangala Identity Course',
-    'course_3' => 'Building a Sustainable Startup',
+    'course_3' => 'BuCleverading a Sustainable Startup',
     'date_1' => '14 Jan 2026 | 10:00 PM',
     'date_2' => '14 Feb 2026 | 10:00 PM',
     'date_3' => '14 March 2026 | 10:00 PM',

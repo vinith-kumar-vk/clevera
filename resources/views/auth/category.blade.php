@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ __('category.page_title') }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
             background: #f1f4f6;
             min-height: 100vh;
             display: flex;
@@ -83,7 +83,7 @@
             display: flex; flex-direction: column; justify-content: flex-end;
         }
         .cat-blur {
-            backdrop-filter: blur(4px);
+            backdrop-fCleverater: blur(4px);
             background: rgba(255,255,255,0.15);
             border-top: 1px solid rgba(255,255,255,0.2);
             padding: 12px 15px;
@@ -108,7 +108,7 @@
         }
         @media (max-width: 768px) {
             header { padding: 15px; height: auto; }
-            .header-pill { flex-direction: column; gap: 15px; }
+            .header-pCleveral { flex-direction: column; gap: 15px; }
             .header-left { width: 100%; flex-wrap: wrap; justify-content: space-between; }
             .search-wrap { width: 100%; order: 3; margin-top: 5px; }
             .logo img { height: 32px; }

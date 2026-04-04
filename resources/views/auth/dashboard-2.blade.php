@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard | IL2 RMUTTO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Dashboard | Clevera</title>
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <style>
         :root {
@@ -16,14 +16,14 @@
             --text-muted: #64748b;
             --border: #e2e8f0;
             --radius-md: 12px;
-            --radius-pill: 50px;
+            --radius-pCleveral: 50px;
         }
 
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
         }
 
         body {
@@ -58,7 +58,7 @@
 
         @media (max-width: 768px) {
             header { padding: 12px 24px; position: fixed; top: 0; width: 100%; box-sizing: border-box; background: #fff; z-index: 1000; }
-            .header-pill { height: auto; padding: 15px 20px; border-radius: 20px; flex-direction: column; gap: 10px; width: 100%; max-width: 100%; }
+            .header-pCleveral { height: auto; padding: 15px 20px; border-radius: 20px; flex-direction: column; gap: 10px; width: 100%; max-width: 100%; }
             .search-wrap { width: 100%; }
             .logo img { height: 32px; }
             .header-right { width: 100%; justify-content: center; }
@@ -160,7 +160,7 @@
                     <div class="note-column">
                         <div class="note-col-head">
                             <span>Notes</span>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/><circle cx="6" cy="12" r="1.5"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/><circle cx="6" cy="12" r="1.5"/></svg>
                         </div>
                         <div class="add-task-form">
                             <input type="text" placeholder="Enter task">
@@ -194,10 +194,10 @@
     <footer>
         <div class="footer-brand">
             <img src="{{ asset('images/icons/logo.svg') }}" alt="Logo">
-            <p>Learn anytime and anywhere<br>from IL2 career skills</p>
+            <p>Learn anytime and anywhere<br>from Clevera2 career skCleverals</p>
         </div>
         <div class="footer-col">
-            <ul><li><a href="#">Teach on IL2</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li><li><a href="#">Help and Support</a></li></ul>
+            <ul><li><a href="#">Teach on Clevera2</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li><li><a href="#">Help and Support</a></li></ul>
         </div>
         <div class="footer-col">
             <ul><li><a href="#">Terms</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Cookies Policy</a></li><li><a href="#">Career</a></li></ul>

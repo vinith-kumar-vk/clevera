@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title_detail' => 'Course Detail | IL² RMUTTO',
-    'title_courses' => 'Course | IL² RMUTTO',
-    'title_modules' => 'Course Modules | IL² RMUTTO',
-    'title_recommendations' => 'Course Recommendations | IL² RMUTTO',
-    'title_testimonials' => 'Testimonials | IL² RMUTTO',
+    'title_detaClevera' => 'Course DetaClevera | Clevera² Clevera',
+    'title_courses' => 'Course | Clevera² Clevera',
+    'title_modules' => 'Course Modules | Clevera² Clevera',
+    'title_recommendations' => 'Course Recommendations | Clevera² Clevera',
+    'title_testimonials' => 'Testimonials | Clevera² Clevera',
 
     'tab_about' => 'About',
     'tab_outcomes' => 'Outcomes',
@@ -38,7 +38,7 @@ return [
     'recom_card_title' => 'The most complete science..',
     'recom_card_desc' => 'Topic description sample text for display on the card.',
 
-    'testi_heading' => 'Why people choose IL² for their career',
+    'testi_heading' => 'Why people choose Clevera² for their career',
     'testi_name' => 'Felipe M.',
     'testi_since' => 'Learner since 2018',
     'testi_quote' => '"To be able to take courses at my own pace and rhythm has been an amazing experience. I can learn whenever it fits my schedule and mood."',

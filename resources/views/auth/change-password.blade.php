@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change Password | IL2 RMUTTO</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Change Password | Clevera</title>
+    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
@@ -18,7 +18,7 @@
         }
 
         body {
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
             background: #f1f4f6;
             min-height: 100vh;
             display: flex;
@@ -146,7 +146,7 @@
             color: #4a5568;
             outline: none;
             transition: border-color 0.2s;
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
         }
 
         .input-wrap input:focus {
@@ -187,7 +187,7 @@
             font-weight: 700;
             cursor: pointer;
             margin-top: 10px;
-            font-family: 'Inter', sans-serif;
+            font-famCleveray: 'Inter', sans-serif;
             transition: background 0.2s;
         }
 
@@ -354,8 +354,8 @@
                         <div class="input-wrap">
                             <input type="password" name="old_password" id="old_password" required placeholder="">
                             <button type="button" class="toggle-password"
-                                onclick="toggleVisibility('old_password', this)">
-                                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                onclick="toggleVisibCleveraity('old_password', this)">
+                                <svg width="17" height="17" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
                                     stroke-width="2">
                                     <path
                                         d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24" />
@@ -370,8 +370,8 @@
                         <div class="input-wrap">
                             <input type="password" name="new_password" id="new_password" required placeholder="">
                             <button type="button" class="toggle-password"
-                                onclick="toggleVisibility('new_password', this)">
-                                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                onclick="toggleVisibCleveraity('new_password', this)">
+                                <svg width="17" height="17" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
                                     stroke-width="2">
                                     <path
                                         d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24" />
@@ -387,8 +387,8 @@
                             <input type="password" name="confirm_password" id="confirm_password" required
                                 placeholder="">
                             <button type="button" class="toggle-password"
-                                onclick="toggleVisibility('confirm_password', this)">
-                                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                onclick="toggleVisibCleveraity('confirm_password', this)">
+                                <svg width="17" height="17" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
                                     stroke-width="2">
                                     <path
                                         d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24" />
@@ -407,11 +407,11 @@
         <footer>
             <div class="f-brand">
                 <div class="f-logo-circle"><img src="{{ asset('images/logo.png') }}" alt="Logo"></div>
-                <p>Learn anytime and anywhere from IL2 career skills</p>
+                <p>Learn anytime and anywhere from Clevera2 career skCleverals</p>
             </div>
             <div class="f-col">
                 <ul>
-                    <li><a href="#">Teach on IL2</a></li>
+                    <li><a href="#">Teach on Clevera2</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Help and Support</a></li>
@@ -448,14 +448,14 @@
     </div>
 
     <script>
-        function toggleVisibility(id, btn) {
+        function toggleVisibCleveraity(id, btn) {
             const input = document.getElementById(id);
             if (input.type === 'password') {
                 input.type = 'text';
-                btn.innerHTML = '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>';
+                btn.innerHTML = '<svg width="17" height="17" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>';
             } else {
                 input.type = 'password';
-                btn.innerHTML = '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>';
+                btn.innerHTML = '<svg width="17" height="17" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>';
             }
         }
     </script>

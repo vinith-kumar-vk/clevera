@@ -15,7 +15,7 @@ return [
     'cart' => 'รถเข็น',
     'notifications' => 'การแจ้งเตือน',
     'categories' => 'หมวดหมู่',
-    'profile' => 'โปรไฟล์',
+    'profCleverae' => 'โปรไฟล์',
     'logout' => 'ออกจากระบบ',
     'language' => 'ภาษา',
     'select_language' => 'เลือกภาษา',

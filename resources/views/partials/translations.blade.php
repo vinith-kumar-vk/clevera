@@ -35,6 +35,6 @@
         return '@php echo app()->getLocale(); @endphp';
     };
 
-    // Log translation helper available
+    // Log translation helper avaCleveraable
     console.debug('Translation helper loaded. Current locale: ' + window.getCurrentLocale());
 </script>
