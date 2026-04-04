@@ -52,7 +52,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 56px;
+    height: 75px;
     /* Slightly more compact height */
     background: #ffffff;
     border-radius: 60px;
@@ -80,7 +80,7 @@ img {
 }
 
 .logo {
-    height: 32px;
+    height: 70px;
     /* Fixed height for better alignment */
     width: auto;
     display: block;
