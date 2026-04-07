@@ -5,12 +5,12 @@
             <div class="logo-circle-old">
                 <img src="{{ asset('images/icons/logo.svg') }}" alt="Logo">
             </div>
-            <p class="footer-tagline-old">Learn anytime and anywhere<br>from Clevera career skCleverals</p>
+            <p class="footer-tagline-old">Learn anytime and anywhere<br>from il career skills</p>
         </div>
 
         <div class="footer-links-container-old">
             <div class="footer-col-old">
-                <a href="#">Teach on Clevera</a>
+                <a href="#">Teach on il</a>
                 <a href="#">About Us</a>
                 <a href="#">Contact Us</a>
                 <a href="#">Help and Support</a>
@@ -24,9 +24,9 @@
         </div>
 
         <div class="footer-right-old">
-            <select class="footer-lang-old">
+            <select class="footer-lang-old" style="display: none !important;">
                 <option>English</option>
-                <option>Thai</option>
+                <option style="display:none;">Thai</option>
             </select>
             
             <div class="social-icons-old">

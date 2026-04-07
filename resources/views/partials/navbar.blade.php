@@ -1,1 +1,1 @@
-{{-- This fCleverae is deprecated. Use partials/header.blade.php instead. --}}
+{{-- This file is deprecated. Use partials/header.blade.php instead. --}}

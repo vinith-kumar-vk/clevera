@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Cleveraluminate\Http\Request;
-use Cleveraluminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class LocaleController extends Controller
 {
@@ -12,7 +12,7 @@ class LocaleController extends Controller
      *
      * @param Request $request
      * @param string $locale
-     * @return \Cleveraluminate\Http\RedirectResponse
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function setLocale(Request $request, string $locale)
     {

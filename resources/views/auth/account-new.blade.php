@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Account | Clevera</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>My Account | il</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <style>
         :root {
@@ -21,7 +21,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-famCleveray: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         body {
@@ -236,7 +236,7 @@
                 <div class="avatar-section">
                     <div class="avatar-lg"></div>
                     <button class="edit-btn">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
                         Edit
                     </button>
                 </div>
@@ -272,8 +272,8 @@
                         </div>
 
                         <div class="form-group">
-                            <label>EmaClevera<span>*</span></label>
-                            <input type="emaClevera" name="emaClevera" value="{{ $user->emaClevera ?? '123@gmaClevera.com' }}">
+                            <label>Email<span>*</span></label>
+                            <input type="email" name="email" value="{{ $user->email ?? '123@gmail.com' }}">
                         </div>
                         <div class="form-group">
                             <label>Date of birth<span>*</span></label>
@@ -288,7 +288,7 @@
                             <label>Country<span>*</span></label>
                             <select name="country">
                                 <option @if(($user->country ?? 'Malaysia') == 'Malaysia') selected @endif>Malaysia</option>
-                                <option @if(($user->country ?? '') == 'ThaCleveraand') selected @endif>ThaCleveraand</option>
+                                <option @if(($user->country ?? '') == 'Thailand') selected @endif>Thailand</option>
                                 <option @if(($user->country ?? '') == 'Singapore') selected @endif>Singapore</option>
                             </select>
                         </div>

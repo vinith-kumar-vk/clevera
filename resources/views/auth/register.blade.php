@@ -74,8 +74,8 @@
 
                     <!-- Row 2 -->
                     <div class="label-field">
-                        <label for="emaClevera">EmaClevera Address<span style="color:red">*</span></label>
-                        <input type="emaClevera" id="emaClevera" name="emaClevera" placeholder="123@gmaClevera.com" required>
+                        <label for="email">Email Address<span style="color:red">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="123@gmail.com" required>
                     </div>
                     <div class="label-field">
                         <label for="dob">Date of Birth<span style="color:red">*</span></label>
@@ -174,19 +174,19 @@
                         
                         <div class="label-field">
                             <label for="payment_info">Payment Information</label>
-                            <input type="text" id="payment_info" name="payment_info" placeholder="Enter payment detaCleveras if applicable">
+                            <input type="text" id="payment_info" name="payment_info" placeholder="Enter payment details if applicable">
                         </div>
                         <div class="label-field">
                             <label for="receipt_info">Receipt/Tax Invoice Information</label>
-                            <input type="text" id="receipt_info" name="receipt_info" placeholder="Enter receipt/invoice detaCleveras if needed">
+                            <input type="text" id="receipt_info" name="receipt_info" placeholder="Enter receipt/invoice details if needed">
                         </div>
                         <div class="label-field checkbox-field" style="grid-column: 1 / -1;">
                             <input type="checkbox" id="receive_notifications" name="receive_notifications">
                             <label for="receive_notifications">Receive new information and courses</label>
                         </div>
                         <div class="label-field checkbox-field" style="grid-column: 1 / -1;">
-                            <input type="checkbox" id="emaClevera_sms_notification" name="emaClevera_sms_notification">
-                            <label for="emaClevera_sms_notification">Allow EmaClevera/SMS notifications</label>
+                            <input type="checkbox" id="email_sms_notification" name="email_sms_notification">
+                            <label for="email_sms_notification">Allow Email/SMS notifications</label>
                         </div>
                     </div>
 
@@ -250,22 +250,22 @@
                         
                         <div class="label-field">
                             <label for="id_copy">Copy of ID Card / Passport<span style="color:red">*</span></label>
-                            <input type="fCleverae" id="id_copy" name="id_copy" accept="image/*,.pdf" required>
+                            <input type="file" id="id_copy" name="id_copy" accept="image/*,.pdf" required>
                         </div>
                         <div class="label-field">
-                            <label for="profCleverae_photo">ProfCleverae Photograph<span style="color:red">*</span></label>
-                            <input type="fCleverae" id="profCleverae_photo" name="profCleverae_photo" accept="image/*" required>
+                            <label for="profile_photo">Profile Photograph<span style="color:red">*</span></label>
+                            <input type="file" id="profile_photo" name="profile_photo" accept="image/*" required>
                         </div>
                         <div class="label-field">
                             <label for="qualification_cert">Certificate of Qualification<span style="color:red">*</span></label>
-                            <input type="fCleverae" id="qualification_cert" name="qualification_cert" accept="image/*,.pdf" required>
+                            <input type="file" id="qualification_cert" name="qualification_cert" accept="image/*,.pdf" required>
                         </div>
 
                         <h3 style="margin-top: 30px; margin-bottom: 15px; color: #333;">Payment & Tax Information</h3>
                         
                         <div class="label-field">
                             <label for="bank_account">Bank Account Information<span style="color:red">*</span></label>
-                            <input type="text" id="bank_account" name="bank_account" placeholder="Enter bank account detaCleveras">
+                            <input type="text" id="bank_account" name="bank_account" placeholder="Enter bank account details">
                         </div>
                         <div class="label-field">
                             <label for="tax_id">Taxpayer Identification Number<span style="color:red">*</span></label>
@@ -324,7 +324,7 @@
             'teaching_language',
             'certificates',
             'id_copy',
-            'profCleverae_photo',
+            'profile_photo',
             'qualification_cert',
             'bank_account',
             'tax_id',

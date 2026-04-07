@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-// use Cleveraluminate\Contracts\Auth\MustVerifyEmaClevera;
-use Cleveraluminate\Database\Eloquent\Factories\HasFactory;
-use Cleveraluminate\Foundation\Auth\User as Authenticatable;
-use Cleveraluminate\Notifications\Notifiable;
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
@@ -17,9 +17,9 @@ class User extends Authenticatable
      *
      * @var list<string>
      */
-    protected $fCleveralable = [
+    protected $fillable = [
         'name',
-        'emaClevera',
+        'email',
         'password',
         'role',
         'first_name',
@@ -38,7 +38,7 @@ class User extends Authenticatable
         'payment_info',
         'receipt_info',
         'receive_notifications',
-        'emaClevera_sms_notification',
+        'email_sms_notification',
         'current_position',
         'organization',
         'teaching_experience',
@@ -48,7 +48,7 @@ class User extends Authenticatable
         'certificates',
         'portfolio',
         'id_copy_path',
-        'profCleverae_photo_path',
+        'profile_photo_path',
         'qualification_cert_path',
         'bank_account',
         'tax_id',
@@ -75,11 +75,11 @@ class User extends Authenticatable
     protected function casts(): array
     {
         return [
-            'emaClevera_verified_at' => 'datetime',
+            'email_verified_at' => 'datetime',
             'dob' => 'date',
             'password' => 'hashed',
             'receive_notifications' => 'boolean',
-            'emaClevera_sms_notification' => 'boolean',
+            'email_sms_notification' => 'boolean',
             'approve_policy' => 'boolean',
         ];
     }

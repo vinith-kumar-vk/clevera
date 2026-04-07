@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reviews | Clevera</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Reviews | il</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <style>
@@ -25,7 +25,7 @@
             color: var(--text-dark);
             margin: 0;
             padding: 0;
-            font-famCleveray: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         header {
@@ -43,7 +43,7 @@
             padding: 0 30px;
         }
 
-        .header-pCleveral {
+        .header-pill {
             width: 100%;
             max-width: 1440px;
             display: flex;
@@ -102,7 +102,7 @@
             position: relative;
         }
 
-        .profCleverae-pCleveral {
+        .profile-pill {
             display: flex;
             align-items: center;
             gap: 10px;
@@ -429,7 +429,7 @@
             overflow: hidden;
         }
 
-        .rb-bar-fCleveral {
+        .rb-bar-fill {
             height: 100%;
             background: #008080;
             border-radius: 10px;
@@ -676,7 +676,7 @@
                 z-index: 1000;
             }
 
-            .header-pCleveral {
+            .header-pill {
                 height: auto;
                 padding: 15px 20px;
                 border-radius: 20px;
@@ -766,7 +766,7 @@
                                     style="display: flex; gap: 15px; align-items: center; margin-top: 4px;">
                                     <span
                                         style="display: inline-flex; align-items: center; font-size: 11px; color: #94a3b8;">
-                                        <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="#f59e0b"
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="#f59e0b"
                                             style="margin-right: 4px;">
                                             <path
                                                 d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -774,7 +774,7 @@
                                     </span>
                                     <span
                                         style="display: inline-flex; align-items: center; font-size: 11px; color: #94a3b8;">
-                                        <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="#64748b"
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#64748b"
                                             stroke-width="2" style="margin-right: 4px;">
                                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                             <circle cx="9" cy="7" r="4" />
@@ -796,7 +796,7 @@
                     </div>
                     <div class="update-date"
                         style="display: flex; align-items: center; gap: 8px; font-size: 11px; color: #94a3b8; margin-bottom: 20px;">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="#2563eb" stroke-width="2.5"
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.5"
                             stroke-linecap="round" stroke-linejoin="round">
                             <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
                             <line x1="16" y1="2" x2="16" y2="6" />
@@ -819,7 +819,7 @@
                 <div class="hero-right">
                     <div class="video-preview">
                         <div class="play-btn">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fCleveral="white">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
                                 <path d="M8 5v14l11-7z" />
                             </svg>
                         </div>
@@ -828,7 +828,7 @@
             </div>
 
             <div class="tab-strip">
-                <a href="{{ route('course.detaClevera') }}" class="tab-item">About</a>
+                <a href="{{ route('course.detail') }}" class="tab-item">About</a>
                 <a href="{{ route('courses') }}" class="tab-item">Outcomes</a>
                 <a href="{{ route('modules') }}" class="tab-item">Modules</a>
                 <a href="{{ route('recommendations') }}" class="tab-item">Recommendations</a>
@@ -838,7 +838,7 @@
 
             <div class="reviews-container"
                 style="min-height: 200px; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 14px;">
-                <p>No reviews avaCleveraable yet for this course.</p>
+                <p>No reviews available yet for this course.</p>
             </div>
         </main>
 
@@ -846,12 +846,12 @@
             <div class="footer-inner">
                 <div class="f-brand">
                     <div class="f-logo-circle"><img src="{{ asset('images/logo.png') }}"></div>
-                    <p>Learn anytime and anywhere from Clevera career skCleverals</p>
+                    <p>Learn anytime and anywhere from il career skills</p>
                 </div>
                 <div class="f-col">
 
                     <ul>
-                        <li><a href="#">Teach on Clevera</a></li>
+                        <li><a href="#">Teach on il</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Help and Support</a></li>

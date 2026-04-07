@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search | Clevera</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Search | il</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
-            font-famCleveray: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif;
             background: #f1f4f6;
             min-height: 100vh;
             display: flex;
@@ -32,8 +32,8 @@
             width: 100%;
         }
 
-        /* â”€â”€â”€ SIDEBAR FCleveraTERS â”€â”€â”€ */
-        .fCleverater-sidebar {
+        /* â”€â”€â”€ SIDEBAR FilTERS â”€â”€â”€ */
+        .filter-sidebar {
             background: #fff;
             border-radius: 20px;
             padding: 24px;
@@ -42,27 +42,27 @@
         }
         .sidebar-header { font-size: 14px; color: #1e293b; margin-bottom: 24px; font-weight: 500; }
         
-        .fCleverater-group { margin-bottom: 24px; }
-        .fCleverater-title {
+        .filter-group { margin-bottom: 24px; }
+        .filter-title {
             display: flex; align-items: center; justify-content: space-between;
             font-size: 14px; font-weight: 700; color: #1e293b; margin-bottom: 12px; cursor: pointer;
         }
-        .fCleverater-content { display: flex; flex-direction: column; gap: 10px; padding-left: 2px; }
-        .fCleverater-item {
+        .filter-content { display: flex; flex-direction: column; gap: 10px; padding-left: 2px; }
+        .filter-item {
             display: flex; align-items: center; justify-content: space-between;
             cursor: pointer;
         }
-        .fCleverater-item label {
+        .filter-item label {
             display: flex; align-items: center; gap: 12px; font-size: 13.5px; color: #94a3b8; font-weight: 400; cursor: pointer;
         }
-        .fCleverater-item input {
+        .filter-item input {
             width: 18px; height: 18px; border-radius: 4px; border: 1px solid #e2e8f0; 
             appearance: none; cursor: pointer; background: #fff; position: relative;
         }
-        .fCleverater-item input:checked::after {
+        .filter-item input:checked::after {
             content: ''; position: absolute; inset: 0; background: #003a70; border-radius: 3px;
         }
-        .fCleverater-count { font-size: 13px; color: #94a3b8; }
+        .filter-count { font-size: 13px; color: #94a3b8; }
 
         /* â”€â”€â”€ MAIN CONTENT â”€â”€â”€ */
         .main-card {
@@ -90,7 +90,7 @@
 
         .course-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fCleveral, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 25px;
         }
 
@@ -141,51 +141,51 @@
     <!-- â”€â”€ SHELL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <div class="shared-shell">
 
-        <!-- FCleveraters Sidebar -->
-        <aside class="fCleverater-sidebar">
-            <div class="sidebar-header">FCleveraters:</div>
+        <!-- Filters Sidebar -->
+        <aside class="filter-sidebar">
+            <div class="sidebar-header">Filters:</div>
 
-            <div class="fCleverater-group">
-                <div class="fCleverater-title">Category 1 <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg></div>
-                <div class="fCleverater-content">
-                    <div class="fCleverater-item">
+            <div class="filter-group">
+                <div class="filter-title">Category 1 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg></div>
+                <div class="filter-content">
+                    <div class="filter-item">
                         <label><input type="checkbox"> Category 1</label>
-                        <span class="fCleverater-count">0</span>
+                        <span class="filter-count">0</span>
                     </div>
-                    <div class="fCleverater-item">
+                    <div class="filter-item">
                         <label><input type="checkbox"> Category 1</label>
-                        <span class="fCleverater-count">4</span>
+                        <span class="filter-count">4</span>
                     </div>
-                    <div class="fCleverater-item">
+                    <div class="filter-item">
                         <label><input type="checkbox"> Category 1</label>
-                        <span class="fCleverater-count">4</span>
+                        <span class="filter-count">4</span>
                     </div>
-                    <div class="fCleverater-item">
+                    <div class="filter-item">
                         <label><input type="checkbox"> Category 1</label>
-                        <span class="fCleverater-count">0</span>
+                        <span class="filter-count">0</span>
                     </div>
-                    <div class="fCleverater-item">
+                    <div class="filter-item">
                         <label><input type="checkbox"> Category 1</label>
-                        <span class="fCleverater-count">4</span>
+                        <span class="filter-count">4</span>
                     </div>
-                    <div class="fCleverater-item">
+                    <div class="filter-item">
                         <label><input type="checkbox"> Category 1</label>
-                        <span class="fCleverater-count">4</span>
+                        <span class="filter-count">4</span>
                     </div>
                 </div>
             </div>
 
-            <div class="fCleverater-group">
-                <div class="fCleverater-title">Lorem Ipsum <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg></div>
-                <div class="fCleverater-content">
-                    <div class="fCleverater-item"><label><input type="checkbox"> Lorem Ipsum</label></div>
-                    <div class="fCleverater-item"><label><input type="checkbox"> Lorem Ipsum</label></div>
-                    <div class="fCleverater-item"><label><input type="checkbox"> Lorem Ipsum</label></div>
+            <div class="filter-group">
+                <div class="filter-title">Lorem Ipsum <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg></div>
+                <div class="filter-content">
+                    <div class="filter-item"><label><input type="checkbox"> Lorem Ipsum</label></div>
+                    <div class="filter-item"><label><input type="checkbox"> Lorem Ipsum</label></div>
+                    <div class="filter-item"><label><input type="checkbox"> Lorem Ipsum</label></div>
                 </div>
             </div>
 
-            <div class="fCleverater-group" style="margin-bottom:0">
-                <div class="fCleverater-title">Lorem Ipsum <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3" style="transform: rotate(-90deg)"><path d="m6 9 6 6 6-6"/></svg></div>
+            <div class="filter-group" style="margin-bottom:0">
+                <div class="filter-title">Lorem Ipsum <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="transform: rotate(-90deg)"><path d="m6 9 6 6 6-6"/></svg></div>
             </div>
         </aside>
 
@@ -206,7 +206,7 @@
 
             <div class="course-grid">
                 @for ($i = 0; $i < 6; $i++)
-                <a href="{{ route('course.detaClevera') }}" class="course-card" style="text-decoration:none; color:inherit;">
+                <a href="{{ route('course.detail') }}" class="course-card" style="text-decoration:none; color:inherit;">
                     <div class="thumb-wrap">
                         <img src="{{ asset('images/learning.png') }}" alt="Course">
                         <span class="badge-free">Free</span>
@@ -220,20 +220,20 @@
                                 <div class="c-avatar"></div>
                                 <div class="meta-stats">
                                     <div class="stat-item">
-                                        <svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
                                         4k
                                     </div>
                                     <div class="stat-item">
-                                        <svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                                         200
                                     </div>
                                     <div class="stat-item">
-                                        <svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                         4.5
                                     </div>
                                 </div>
                             </div>
-                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
                         </div>
                     </div>
                 </a>

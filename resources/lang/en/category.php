@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'page_title' => 'Courses | Clevera² Clevera',
+    'page_title' => 'Courses | Clevera',
     'nav_courses' => 'Courses',
     'search_placeholder' => 'Search here',
     'student_default' => 'Student',
@@ -20,7 +20,7 @@ return [
         'Digital Marketing Strategy',
         'Entrepreneurship & Startup Foundations',
         'Financial Literacy & Budgeting',
-        'Business Communication SkCleverals',
+        'Business Communication Skills',
         'Project Management Essentials',
         'Leadership & Team Management',
         'Introduction to Coding (Python Basics)',
@@ -32,7 +32,7 @@ return [
         'Automation & No-Code Tools',
         'Scientific Thinking & Problem Solving',
         'Research Methods & Data Interpretation',
-        'Environmental SustainabCleveraity Basics',
+        'Environmental Sustainability Basics',
         'Biotechnology Introduction',
         'AI in Healthcare',
         'Robotics & Automation Basics',

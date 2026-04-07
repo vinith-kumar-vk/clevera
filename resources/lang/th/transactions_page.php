@@ -1,14 +1,14 @@
 <?php
 
 return [
-    'page_title' => 'ธุรกรรม | Clevera² Clevera',
+    'page_title' => 'ธุรกรรม | Clevera',
     'heading' => 'ธุรกรรม',
     'tab_transactions' => 'รายการธุรกรรม',
     'tab_refunds' => 'คืนเงิน',
     'th_txn_id' => 'รหัสธุรกรรม',
     'th_invoice' => 'ชื่อใบแจ้งหนี้',
     'th_payment_method' => 'ช่องทางชำระเงิน',
-    'th_detaCleveras' => 'รายละเอียด',
+    'th_details' => 'รายละเอียด',
     'th_amount' => 'จำนวนเงิน',
     'th_status' => 'สถานะ',
     'paid' => 'ชำระแล้ว',

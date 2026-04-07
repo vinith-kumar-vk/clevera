@@ -1,8 +1,8 @@
 {{-- ═══ SHARED SIDEBAR ═══ --}}
-{{-- Pass $activePage and $type ('bCleveraling' or 'dashboard') --}}
+{{-- Pass $activePage and $type ('billing' or 'dashboard') --}}
 <aside class="shared-sidebar">
-    @if(($type ?? 'dashboard') === 'bCleveraling')
-        {{-- BCleveraLING / WISHLIST SIDEBAR --}}
+    @if(($type ?? 'dashboard') === 'billing')
+        {{-- BilLING / WISHLIST SIDEBAR --}}
         <a href="{{ route('dashboard.1') }}" class="nav-link {{ ($activePage ?? '') === 'dashboard' ? 'active' : '' }}">
             <img src="{{ asset('images/icons/11.png') }}" style="width: 22px; height: 22px;">
             {{ __('navigation.dashboard') }}
@@ -28,9 +28,9 @@
             <img src="{{ asset('images/icons/66.png') }}" style="width: 22px; height: 22px;">
             {{ __('navigation.exam') }}
         </a>
-        <a href="{{ route('wishlist') }}" class="nav-link {{ (($activePage ?? '') === 'bCleveraling' || ($activePage ?? '') === 'wishlist') ? 'active' : '' }}">
-            <img src="{{ asset('images/icons/bCleveraling.jpeg') }}" style="width: 22px; height: 22px;">
-            {{ __('navigation.bCleveraling') }}
+        <a href="{{ route('wishlist') }}" class="nav-link {{ (($activePage ?? '') === 'billing' || ($activePage ?? '') === 'wishlist') ? 'active' : '' }}">
+            <img src="{{ asset('images/icons/billing.jpeg') }}" style="width: 22px; height: 22px;">
+            {{ __('navigation.billing') }}
         </a>
         <a href="#" class="nav-link {{ ($activePage ?? '') === 'attendance' ? 'active' : '' }}">
             <img src="{{ asset('images/icons/88.png') }}" style="width: 22px; height: 22px;">
@@ -74,9 +74,9 @@
             <img src="{{ asset('images/icons/9.png') }}" style="width: 22px; height: 22px;">
             {{ __('navigation.payment') }}
         </a>
-        <a href="{{ route('wishlist') }}" class="nav-link {{ (($activePage ?? '') === 'bCleveraling' || ($activePage ?? '') === 'wishlist') ? 'active' : '' }}">
-            <img src="{{ asset('images/icons/bCleveraling.jpeg') }}" style="width: 22px; height: 22px;">
-            {{ __('navigation.bCleveraling') }}
+        <a href="{{ route('wishlist') }}" class="nav-link {{ (($activePage ?? '') === 'billing' || ($activePage ?? '') === 'wishlist') ? 'active' : '' }}">
+            <img src="{{ asset('images/icons/billing.jpeg') }}" style="width: 22px; height: 22px;">
+            {{ __('navigation.billing') }}
         </a>
     @endif
 </aside>

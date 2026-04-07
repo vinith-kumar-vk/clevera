@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Cleveraluminate\Http\Request;
+use Illuminate\Http\Request;
 use App\Models\User;
-use Cleveraluminate\Support\Facades\Hash;
-use Cleveraluminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
 
 class AccountController extends Controller
 {
@@ -19,7 +19,7 @@ class AccountController extends Controller
         $user = Auth::user() ?? (object)[
             'name' => 'Student',
             'username' => '@Student2',
-            'emaClevera' => '123@gmaClevera.com',
+            'email' => '123@gmail.com',
             'dob' => 'Teacher',
             'phone' => '000-0000 0000',
             'country' => 'Malaysia'
@@ -37,7 +37,7 @@ class AccountController extends Controller
         // $request->validate([...]);
 
         // Simulating update success
-        return back()->with('success', 'ProfCleverae updated successfully!');
+        return back()->with('success', 'Profile updated successfully!');
     }
 
     /**

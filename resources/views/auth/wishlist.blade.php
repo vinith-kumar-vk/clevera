@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wishlist | Clevera² Clevera</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Wishlist | Clevera</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
@@ -25,7 +25,7 @@
             display: flex;
             flex-direction: column;
             gap: 24px;
-            font-famCleveray: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif;
             color: #1e293b;
         }
 
@@ -146,20 +146,20 @@
             .txn-table { min-width: 600px; }
         }
 
-        .detaClevera-row {
+        .detail-row {
             display: flex;
             width: 100%;
             max-width: 500px;
             gap: 20px;
         }
-        .detaClevera-label {
+        .detail-label {
             width: 180px;
             flex-shrink: 0;
             font-size: 13px;
             color: #64748b;
             font-weight: 500;
         }
-        .detaClevera-value {
+        .detail-value {
             font-size: 13.5px;
             font-weight: 800;
             color: #1e293b;
@@ -167,18 +167,18 @@
         }
 
         @media (max-width: 640px) {
-            .detaClevera-row {
+            .detail-row {
                 flex-direction: column;
                 gap: 5px;
             }
-            .detaClevera-label {
+            .detail-label {
                 width: 100%;
             }
         }
 
         @media (max-width: 480px) {
             .other-plan-card { flex-direction: column; align-items: stretch !important; text-align: center; gap: 15px !important; }
-            .other-plan-card > div:first-chCleverad { margin: 0 auto; }
+            .other-plan-card > div:first-child { margin: 0 auto; }
             .other-plan-card .buy-btn { width: 100%; justify-content: center; padding: 12px 20px !important; }
             .plans-grid { margin-bottom: 30px; }
             .plan-price-wrapper { justify-content: center; }
@@ -201,11 +201,11 @@
     @include('partials.header')
 
     <div class="shared-shell">
-        @include('partials.sidebar', ['activePage' => 'wishlist', 'type' => 'bCleveraling'])
+        @include('partials.sidebar', ['activePage' => 'wishlist', 'type' => 'billing'])
 
         <!-- Main Content -->
         <main class="shared-content">
-            <h1 class="page-title">BCleveraling</h1>
+            <h1 class="page-title">Billing</h1>
 
             <div class="main-card">
                 <div class="tabs-container">
@@ -230,47 +230,47 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Maths</td>
+                                    <td>Machine Learning 101</td>
                                     <td>$9.99</td>
                                     <td>$9.99</td>
                                     <td>0</td>
                                     <td align="left">
                                         <div style="display: flex; gap: 4px; color: #facc15; align-items: center;">
-                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Creative</td>
+                                    <td>Creative UI/UX Design</td>
                                     <td>$10.00</td>
                                     <td>$10.00</td>
                                     <td>0</td>
                                     <td align="left">
                                         <div style="display: flex; gap: 4px; color: #facc15; align-items: center;">
-                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Arts</td>
+                                    <td>Digital Arts & Media</td>
                                     <td>$9.99</td>
                                     <td>$9.99</td>
                                     <td>1</td>
                                     <td align="left">
                                         <div style="display: flex; gap: 4px; color: #facc15; align-items: center;">
-                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="14" height="14" fCleveral="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
-                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fCleveral="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+                                            <svg width="6" height="6" style="color: #94a3b8; margin: 0 2px;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
                                         </div>
                                     </td>
                                 </tr>
@@ -285,7 +285,7 @@
                         <table class="txn-table">
                             <thead>
                                 <tr>
-                                    <th>BCleveraling Date</th>
+                                    <th>Billing Date</th>
                                     <th>Status</th>
                                     <th>Amount</th>
                                     <th>Description</th>
@@ -297,21 +297,21 @@
                                     <td>June 22, 2023</td>
                                     <td>Received</td>
                                     <td>$9.99</td>
-                                    <td>Johny</td>
+                                    <td>Subscription Fee</td>
                                     <td align="right"><button class="btn-download">Download</button></td>
                                 </tr>
                                 <tr>
                                     <td>July 22, 2023</td>
                                     <td>Paid</td>
                                     <td>$10.00</td>
-                                    <td>Bigger Class</td>
+                                    <td>Clevera Pro Plan</td>
                                     <td align="right"><button class="btn-download disabled">Download</button></td>
                                 </tr>
                                 <tr>
                                     <td>August 22, 2023</td>
                                     <td>Paid</td>
                                     <td>$9.99</td>
-                                    <td>Breakout Room</td>
+                                    <td>Mentor Sessions</td>
                                     <td align="right"><button class="btn-download">Download</button></td>
                                 </tr>
                             </tbody>
@@ -321,47 +321,47 @@
 
                 <!-- My Account Pane -->
                 <div id="account-pane" class="tab-pane" style="display:none;">
-                    <div class="account-detaClevera-header" style="display: flex; align-items: center; gap: 15px; margin-bottom: 40px; padding-left: 10px;">
-                        <h3 style="font-size: 16px; font-weight: 800; margin: 0;">Account DetaClevera</h3>
+                    <div class="account-detail-header" style="display: flex; align-items: center; gap: 15px; margin-bottom: 40px; padding-left: 10px;">
+                        <h3 style="font-size: 16px; font-weight: 800; margin: 0;">Account Detail</h3>
                         <img src="{{ asset('images/icons/Group 147.png') }}" alt="Edit" style="width: 20px; height: 20px; cursor: pointer;" onclick="switchTab(null, 'payment')">
                     </div>
 
-                    <div class="detaClevera-rows" style="display: flex; flex-direction: column; gap: 20px; padding-left: 10px;">
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">Name</span>
-                            <span class="detaClevera-value">Jhonny</span>
+                    <div class="detail-rows" style="display: flex; flex-direction: column; gap: 20px; padding-left: 10px;">
+                        <div class="detail-row">
+                            <span class="detail-label">Name</span>
+                            <span class="detail-value">Jhonny</span>
                         </div>
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">EmaClevera</span>
-                            <span class="detaClevera-value">jhon@gmaClevera.com</span>
+                        <div class="detail-row">
+                            <span class="detail-label">Email</span>
+                            <span class="detail-value">alex@gmail.com</span>
                         </div>
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">Recovery EmaClevera</span>
-                            <span class="detaClevera-value">Jhon34@gmaClevera.com</span>
+                        <div class="detail-row">
+                            <span class="detail-label">Recovery Email</span>
+                            <span class="detail-value">alex_backup@gmail.com</span>
                         </div>
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">Phone Number</span>
-                            <span class="detaClevera-value">012 3456 7890</span>
+                        <div class="detail-row">
+                            <span class="detail-label">Phone Number</span>
+                            <span class="detail-value">012 3456 7890</span>
                         </div>
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">Address</span>
-                            <span class="detaClevera-value">21, Jalan Old Klang Road</span>
+                        <div class="detail-row">
+                            <span class="detail-label">Address</span>
+                            <span class="detail-value">21, Jalan Old Klang Road</span>
                         </div>
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">City</span>
-                            <span class="detaClevera-value">Cheras</span>
+                        <div class="detail-row">
+                            <span class="detail-label">City</span>
+                            <span class="detail-value">Cheras</span>
                         </div>
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">State</span>
-                            <span class="detaClevera-value">Kuala Lumpur</span>
+                        <div class="detail-row">
+                            <span class="detail-label">State</span>
+                            <span class="detail-value">Kuala Lumpur</span>
                         </div>
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">Zip Code</span>
-                            <span class="detaClevera-value">55100</span>
+                        <div class="detail-row">
+                            <span class="detail-label">Zip Code</span>
+                            <span class="detail-value">55100</span>
                         </div>
-                        <div class="detaClevera-row">
-                            <span class="detaClevera-label">Country</span>
-                            <span class="detaClevera-value">Malaysia</span>
+                        <div class="detail-row">
+                            <span class="detail-label">Country</span>
+                            <span class="detail-value">Malaysia</span>
                         </div>
                     </div>
                 </div>
@@ -388,7 +388,7 @@
                             <option>Select Currency</option>
                         </select>
                         <div style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #64748b;">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="m7 10 5 5 5-5"/></svg>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m7 10 5 5 5-5"/></svg>
                         </div>
                     </div>
                 </div>
@@ -398,12 +398,12 @@
                     <h3 style="font-size: 16px; font-weight: 800; margin-bottom: 25px;">Current Plans</h3>
                     
                     <div class="plans-grid">
-                        <!-- Bigger Class Card -->
+                        <!-- Clevera Pro Plan Card -->
                         <div class="plan-card-item" style="background: linear-gradient(135deg, #38bdf8 0%, #6366f1 100%);">
                             <!-- Top Section -->
                             <div style="display: flex; justify-content: space-between; align-items: flex-start;">
                                 <div>
-                                    <h4 style="font-size: 16px; font-weight: 800; margin: 0; color: #000; display: inline-block;">Bigger Class</h4>
+                                    <h4 style="font-size: 16px; font-weight: 800; margin: 0; color: #000; display: inline-block;">Clevera Pro Plan</h4>
                                     <span style="font-size: 11px; font-weight: 600; opacity: 0.7; color: #000; margin-left: 4px;">Yearly</span>
                                 </div>
                                 <div style="font-size: 11px; font-weight: 700; color: #000; text-align: right;">June 22, 2023</div>
@@ -418,7 +418,7 @@
                                 <div style="display: flex; gap: 8px; align-items: center;">
                                     <div style="background: #fff; color: #22c55e; padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 800; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">Paid</div>
                                     <button style="background: rgba(255,255,255,0.4); border: 1px solid rgba(0,0,0,0.1); padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 700; color: #64748b; display: flex; align-items: center; gap: 4px; cursor: not-allowed;">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
                                         Pay
                                     </button>
                                 </div>
@@ -426,7 +426,7 @@
 
                             <!-- Features Section -->
                             <div>
-                                <div style="font-size: 12px; font-weight: 700; margin-bottom: 12px; color: #000;">Bigger Class includes:</div>
+                                <div style="font-size: 12px; font-weight: 700; margin-bottom: 12px; color: #000;">Clevera Pro Plan includes:</div>
                                 <div style="display: flex; gap: 10px;">
                                     <div style="width: 22px; height: 22px; background: #fff; border-radius: 50%; opacity: 0.95; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"></div>
                                     <div style="width: 22px; height: 22px; background: #fff; border-radius: 50%; opacity: 0.95; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"></div>
@@ -446,12 +446,12 @@
                             </div>
                         </div>
 
-                        <!-- TutorX Pro Card -->
+                        <!-- Clevera Pro Max Card -->
                         <div class="plan-card-item" style="background: linear-gradient(135deg, #d8b4fe 0%, #8b5cf6 100%);">
                             <!-- Top Section -->
                             <div style="display: flex; justify-content: space-between; align-items: flex-start;">
                                 <div>
-                                    <h4 style="font-size: 16px; font-weight: 800; margin: 0; color: #000; display: inline-block;">TutorX Pro</h4>
+                                    <h4 style="font-size: 16px; font-weight: 800; margin: 0; color: #000; display: inline-block;">Clevera Pro Max</h4>
                                     <span style="font-size: 11px; font-weight: 600; opacity: 0.7; color: #000; margin-left: 4px;">Monthly</span>
                                 </div>
                                 <div style="font-size: 11px; font-weight: 700; color: #000; text-align: right;">June 22, 2023</div>
@@ -466,7 +466,7 @@
                                 <div style="display: flex; gap: 8px; align-items: center;">
                                     <div style="background: #fff; color: #22c55e; padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 800; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">Paid</div>
                                     <button style="background: rgba(255,255,255,0.4); border: 1px solid rgba(0,0,0,0.1); padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 700; color: #64748b; display: flex; align-items: center; gap: 4px; cursor: not-allowed;">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
                                         Pay
                                     </button>
                                 </div>
@@ -474,7 +474,7 @@
 
                             <!-- Features Section -->
                             <div>
-                                <div style="font-size: 12px; font-weight: 700; margin-bottom: 12px; color: #000;">TutorX Pro includes:</div>
+                                <div style="font-size: 12px; font-weight: 700; margin-bottom: 12px; color: #000;">Clevera Pro Max includes:</div>
                                 <div style="display: flex; gap: 10px;">
                                     <div style="width: 22px; height: 22px; background: #fff; border-radius: 50%; opacity: 0.95; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"></div>
                                     <div style="width: 22px; height: 22px; background: #fff; border-radius: 50%; opacity: 0.95; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"></div>
@@ -492,12 +492,12 @@
                             </div>
                         </div>
 
-                        <!-- Exam Module Card -->
+                        <!-- Certification Module Card -->
                         <div class="plan-card-item" style="background: linear-gradient(135deg, #fef08a 0%, #fbcfe8 50%, #e879f9 100%);">
                             <!-- Top Section -->
                             <div style="display: flex; justify-content: space-between; align-items: flex-start;">
                                 <div>
-                                    <h4 style="font-size: 16px; font-weight: 800; margin: 0; color: #000; display: inline-block;">Exam Module</h4>
+                                    <h4 style="font-size: 16px; font-weight: 800; margin: 0; color: #000; display: inline-block;">Certification Module</h4>
                                     <span style="font-size: 11px; font-weight: 600; opacity: 0.7; color: #000; margin-left: 4px;">Monthly</span>
                                 </div>
                                 <div style="font-size: 11px; font-weight: 700; color: #000; text-align: right;">June 22, 2023</div>
@@ -512,7 +512,7 @@
                                 <div style="display: flex; gap: 8px; align-items: center;">
                                     <div style="background: #fff; color: #ef4444; padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 800; box-shadow: 0 2px 5px rgba(239,68,68,0.15);">Unpaid</div>
                                     <button style="background: #003049; border: none; padding: 4px 14px; border-radius: 20px; font-size: 11px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 4px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,48,73,0.3);">
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
                                         Pay
                                     </button>
                                 </div>
@@ -520,7 +520,7 @@
 
                             <!-- Features Section -->
                             <div>
-                                <div style="font-size: 12px; font-weight: 700; margin-bottom: 12px; color: #000;">Exam Module includes:</div>
+                                <div style="font-size: 12px; font-weight: 700; margin-bottom: 12px; color: #000;">Certification Module includes:</div>
                                 <div style="display: flex; gap: 10px;">
                                     <div style="width: 22px; height: 22px; background: #fff; border-radius: 50%; opacity: 0.95; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"></div>
                                     <div style="width: 22px; height: 22px; background: #fff; border-radius: 50%; opacity: 0.95; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"></div>
@@ -548,7 +548,7 @@
                                 <option>Monthly</option>
                             </select>
                             <div style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #64748b;">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><path d="m7 10 5 5 5-5"/></svg>
+                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m7 10 5 5 5-5"/></svg>
                             </div>
                         </div>
                     </div>
@@ -566,7 +566,7 @@
                                 </div>
                             </div>
                             <button class="buy-btn" style="background: #f97316; color: #fff; border: none; border-radius: 20px; padding: 8px 18px; font-size: 12px; font-weight: 800; display: flex; align-items: center; gap: 5px; cursor: pointer;">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
                                 Buy
                             </button>
                         </div>
@@ -581,14 +581,14 @@
                                 </div>
                             </div>
                             <button class="buy-btn" style="background: #f97316; color: #fff; border: none; border-radius: 20px; padding: 8px 18px; font-size: 12px; font-weight: 800; display: flex; align-items: center; gap: 5px; cursor: pointer;">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
                                 Buy
                             </button>
                         </div>
                         <div class="other-plan-card" style="background: #d1d5db; border-radius: 16px; padding: 24px 20px; display: flex; align-items: center; gap: 15px;">
                             <div style="min-width: 48px; width: 48px; height: 48px; border-radius: 50%; background: #fff;"></div>
                             <div style="flex: 1;">
-                                <h5 style="font-size: 14px; font-weight: 800; margin-bottom: 6px; color: #1e293b;">Breakout Room</h5>
+                                <h5 style="font-size: 14px; font-weight: 800; margin-bottom: 6px; color: #1e293b;">Mentor Sessions</h5>
                                 <div class="plan-price-wrapper" style="display: flex; align-items: baseline;">
                                     <span style="font-size: 24px; font-weight: 900; line-height: 1; color: #003049;">$99</span>
                                     <span style="font-size: 14px; font-weight: 800; line-height: 1; color: #003049;">.99</span>
@@ -596,7 +596,7 @@
                                 </div>
                             </div>
                             <button class="buy-btn" style="background: #f97316; color: #fff; border: none; border-radius: 20px; padding: 8px 18px; font-size: 12px; font-weight: 800; display: flex; align-items: center; gap: 5px; cursor: pointer;">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
                                 Buy
                             </button>
                         </div>

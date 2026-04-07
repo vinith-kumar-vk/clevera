@@ -2,11 +2,11 @@
 <footer class="shared-footer-dashboard">
     <div class="f-brand">
         <div class="f-logo-circle"><img src="{{ asset('images/logo.png') }}" alt="Logo"></div>
-        <p>Learn anytime and anywhere from Clevera career skCleverals</p>
+        <p>Learn anytime and anywhere from il career skills</p>
     </div>
     <div class="f-col">
         <ul>
-            <li><a href="#">Teach on Clevera</a></li>
+            <li><a href="#">Teach on il</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Help and Support</a></li>
@@ -21,9 +21,9 @@
         </ul>
     </div>
     <div class="f-right">
-        <select class="f-lang-select">
+        <select class="f-lang-select" style="display: none !important;">
             <option>English</option>
-            <option>Thai</option>
+            <option style="display:none;">Thai</option>
         </select>
         <div class="f-socials">
             <a href="#"><img

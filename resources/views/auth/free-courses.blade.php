@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Courses | Clevera</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800;900&display=swap"
+    <title>Free Courses | il</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
@@ -24,7 +24,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-famCleveray: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         body {
@@ -43,7 +43,7 @@
             margin: 0 auto 30px;
         }
 
-        .header-pCleveral {
+        .header-pill {
             background: #fff;
             padding: 12px 30px;
             border-radius: 50px;
@@ -143,7 +143,7 @@
             border: 2px solid #fff;
         }
 
-        .profCleverae-btn {
+        .profile-btn {
             display: flex;
             align-items: center;
             gap: 12px;
@@ -366,7 +366,7 @@
         }
 
         .btn-play svg {
-            fCleveral: #fff;
+            fill: #fff;
             color: #fff;
             margin-left: 3px;
         }
@@ -519,12 +519,12 @@
                     <div class="card-footer">
                         <div class="avatar-sm"></div>
                         <div class="stats-row">
-                            <div class="stat-item"><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
+                            <div class="stat-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
                                     <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
                                     <circle cx="12" cy="12" r="3" />
                                 </svg> 4k</div>
-                            <div class="stat-item"><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
+                            <div class="stat-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
                                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                     <circle cx="9" cy="7" r="4" />
@@ -532,7 +532,7 @@
                                     <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                                 </svg> 200</div>
                             <div class="stat-item">â­ 4.5</div>
-                            <svg class="heart-icon" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
+                            <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="3">
                                 <path
                                     d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -541,7 +541,7 @@
                     </div>
                 </div>
                 <div class="card-action">
-                    <a href="{{ route('course.detaClevera') }}" class="btn-play">
+                    <a href="{{ route('course.detail') }}" class="btn-play">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <path d="M8 5v14l11-7z" />
                         </svg>
@@ -562,12 +562,12 @@
                     <div class="card-footer">
                         <div class="avatar-sm"></div>
                         <div class="stats-row">
-                            <div class="stat-item"><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
+                            <div class="stat-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
                                     <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
                                     <circle cx="12" cy="12" r="3" />
                                 </svg> 4k</div>
-                            <div class="stat-item"><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
+                            <div class="stat-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
                                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                     <circle cx="9" cy="7" r="4" />
@@ -575,7 +575,7 @@
                                     <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                                 </svg> 200</div>
                             <div class="stat-item">â­ 4.5</div>
-                            <svg class="heart-icon" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor"
+                            <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="3">
                                 <path
                                     d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -585,7 +585,7 @@
                 </div>
                 <div class="card-action">
                     <div class="btn-soon">
-                        <svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
                             <circle cx="12" cy="12" r="10" />
                             <polyline points="12 6 12 12 16 14" />
                         </svg>
@@ -600,11 +600,11 @@
             <div class="footer-inner">
                 <div class="f-brand">
                     <div class="f-logo-wrap"><img src="{{ asset('images/logo.png') }}" alt="Logo"></div>
-                    <p>Learn anytime and anywhere from Clevera career skCleverals</p>
+                    <p>Learn anytime and anywhere from il career skills</p>
                 </div>
                 <div class="f-col">
                     <ul>
-                        <li><a href="#">Teach on Clevera</a></li>
+                        <li><a href="#">Teach on il</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Help and Support</a></li>

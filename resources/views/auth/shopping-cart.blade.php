@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ __('cart.page_title') }}</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
-            font-famCleveray: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif;
             background: #f1f4f6;
             min-height: 100vh;
             display: flex;
@@ -214,7 +214,7 @@
             font-size: 14.5px;
             border-bottom: 1px solid #f1f5f9;
         }
-        .summary-row:last-chCleverad { border-bottom: none; }
+        .summary-row:last-child { border-bottom: none; }
         .row-label { color: #475569; font-weight: 500; }
         .row-value { color: #003a70; font-weight: 800; }
 
@@ -265,7 +265,7 @@
                     <!-- Item 1 -->
                     <div class="cart-item-wrap">
                         <div class="cart-checkbox checked">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="4"><polyline points="20 6 9 17 4 12"/></svg>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><polyline points="20 6 9 17 4 12"/></svg>
                         </div>
                         <div class="cart-item">
                             <div class="item-thumb"></div>
@@ -288,12 +288,12 @@
                     <!-- Item 2 -->
                     <!-- <div class="cart-item-wrap">
                         <div class="cart-checkbox">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="4"><polyline points="20 6 9 17 4 12"/></svg>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><polyline points="20 6 9 17 4 12"/></svg>
                         </div>
                         <div class="cart-item">
                             <div class="item-thumb"></div>
                             <div class="item-info">
-                                <div class="item-title">Guide 2 Maths</div>
+                                <div class="item-title">Mastering Algorithms</div>
                                 <div class="item-desc">In other words the smallest 2-digits number is 10</div>
                                 <div class="teacher-info">
                                     <div class="teacher-avatar"></div>

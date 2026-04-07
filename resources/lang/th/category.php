@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'page_title' => 'หลักสูตร | Clevera² Clevera',
+    'page_title' => 'หลักสูตร | Clevera',
     'nav_courses' => 'หลักสูตร',
     'search_placeholder' => 'ค้นหาที่นี่',
     'student_default' => 'ผู้เรียน',

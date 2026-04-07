@@ -2,7 +2,7 @@
 
 return [
     'login' => 'เข้าสู่ระบบ',
-    'emaClevera' => 'อีเมลหรือชื่อผู้ใช้',
+    'email' => 'อีเมลหรือชื่อผู้ใช้',
     'password' => 'รหัสผ่าน',
     'current_password' => 'รหัสผ่านปัจจุบัน',
     'new_password' => 'รหัสผ่านใหม่',
@@ -12,7 +12,7 @@ return [
     'sign_up' => 'ลงทะเบียน',
     'register' => 'สมัครสมาชิก',
     'reset_password' => 'รีเซ็ตรหัสผ่าน',
-    'verify_emaClevera' => 'ยืนยันอีเมล',
+    'verify_email' => 'ยืนยันอีเมล',
     'send' => 'ส่ง',
     'submit' => 'ส่ง',
     'change_password' => 'เปลี่ยนรหัสผ่าน',

@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title_detaClevera' => 'Course DetaClevera | Clevera² Clevera',
-    'title_courses' => 'Course | Clevera² Clevera',
-    'title_modules' => 'Course Modules | Clevera² Clevera',
-    'title_recommendations' => 'Course Recommendations | Clevera² Clevera',
-    'title_testimonials' => 'Testimonials | Clevera² Clevera',
+    'title_detail' => 'Course Detail | Clevera',
+    'title_courses' => 'Course | Clevera',
+    'title_modules' => 'Course Modules | Clevera',
+    'title_recommendations' => 'Course Recommendations | Clevera',
+    'title_testimonials' => 'Testimonials | Clevera',
 
     'tab_about' => 'About',
     'tab_outcomes' => 'Outcomes',
@@ -20,7 +20,7 @@ return [
     'students_zero' => '0 Students',
     'save' => 'Save',
     'share' => 'Share',
-    'course_title_vet' => 'Veterinary Nursing Assistant Course',
+    'course_title_vet' => 'Advanced AI & Machine Learning',
     'free' => 'Free',
     'updated_date' => 'Updated date : 26 March 2026',
     'updated_date_icon' => 'Updated date : 26 March 2026',
@@ -38,7 +38,7 @@ return [
     'recom_card_title' => 'The most complete science..',
     'recom_card_desc' => 'Topic description sample text for display on the card.',
 
-    'testi_heading' => 'Why people choose Clevera² for their career',
+    'testi_heading' => 'Why people choose Clevera for their career',
     'testi_name' => 'Felipe M.',
     'testi_since' => 'Learner since 2018',
     'testi_quote' => '"To be able to take courses at my own pace and rhythm has been an amazing experience. I can learn whenever it fits my schedule and mood."',

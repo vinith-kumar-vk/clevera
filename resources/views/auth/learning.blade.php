@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ __('learning.page_title') }}</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <style>
         :root {
@@ -19,13 +19,13 @@
 
         body {
             background-color: var(--bg-body);
-            font-famCleveray: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif;
             margin: 0;
             padding: 0;
             color: var(--text-dark);
         }
 
-        /* ─── MOBCleveraE RESPONSIVE TWEAKS ─── */
+        /* ─── MOBilE RESPONSIVE TWEAKS ─── */
         @media (max-width: 1024px) {
             .shared-shell { 
                 grid-template-columns: 1fr !important;
@@ -86,7 +86,7 @@
             border: 2px solid #fff;
         }
 
-        .user-profCleverae {
+        .user-profile {
             display: flex;
             align-items: center;
             gap: 10px;
@@ -100,7 +100,7 @@
             background: #94a3b8;
         }
 
-        .user-profCleverae span {
+        .user-profile span {
             font-size: 14px;
             font-weight: 500;
             color: #1e293b;
@@ -221,7 +221,7 @@
         .grid > a {
             display: flex;
             flex-direction: column;
-            height: 100%; /* Ensures anchor fCleverals the full grid cell height */
+            height: 100%; /* Ensures anchor fills the full grid cell height */
             text-decoration: none;
             color: inherit;
         }
@@ -303,7 +303,7 @@
             overflow: hidden;
         }
 
-        .progress-fCleveral {
+        .progress-fill {
             height: 100%;
             background: var(--teal);
             border-radius: 10px;
@@ -368,13 +368,13 @@
                             <div class="course-card">
                                 <div class="cc-header">
                                     <span class="cc-date">01 June 2026</span>
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="#94a3b8" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
                                 </div>
                                 <div class="cc-img" style="background-image: url('{{ asset('images/math_bg.png') }}');"></div>
                                 <div class="cc-badge">(New Feature) Task</div>
                                 <h3 class="cc-title">Mathematic</h3>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bg"><div class="progress-fCleveral" style="width: 90%;"></div></div>
+                                    <div class="progress-bg"><div class="progress-fill" style="width: 90%;"></div></div>
                                     <span class="progress-text">90%</span>
                                 </div>
                                 <p class="cc-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -401,7 +401,7 @@
                             <div class="course-card">
                                 <div class="cc-header">
                                     <span class="cc-date">{{ $item['date'] }}</span>
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="#94a3b8" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
                                 </div>
                                 <div class="cc-img" style="background-image: url('{{ asset('images/' . $card['img']) }}');"></div>
                                 <div class="cc-top-content">
@@ -409,7 +409,7 @@
                                     <h3 class="cc-title">{{ $item['title'] }}</h3>
                                 </div>
                                 <div class="progress-bar-wrap">
-                                    <div class="progress-bg"><div class="progress-fCleveral" style="width: {{ $card['progress'] }}%;"></div></div>
+                                    <div class="progress-bg"><div class="progress-fill" style="width: {{ $card['progress'] }}%;"></div></div>
                                     <span class="progress-text">{{ $card['progress'] }}%</span>
                                 </div>
                                 <p class="cc-desc">{{ $item['description'] }}</p>

@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title_detaClevera' => 'รายละเอียดหลักสูตร | Clevera² Clevera',
-    'title_courses' => 'หลักสูตร | Clevera² Clevera',
-    'title_modules' => 'โมดูลหลักสูตร | Clevera² Clevera',
-    'title_recommendations' => 'หลักสูตรแนะนำ | Clevera² Clevera',
-    'title_testimonials' => 'คำรับรอง | Clevera² Clevera',
+    'title_detail' => 'รายละเอียดหลักสูตร | Clevera',
+    'title_courses' => 'หลักสูตร | Clevera',
+    'title_modules' => 'โมดูลหลักสูตร | Clevera',
+    'title_recommendations' => 'หลักสูตรแนะนำ | Clevera',
+    'title_testimonials' => 'คำรับรอง | Clevera',
 
     'tab_about' => 'เกี่ยวกับ',
     'tab_outcomes' => 'ผลการเรียนรู้',
@@ -38,7 +38,7 @@ return [
     'recom_card_title' => 'วิทยาศาสตร์ครบวงจร..',
     'recom_card_desc' => 'คำอธิบายหัวข้อตัวอย่างสำหรับแสดงบนการ์ด',
 
-    'testi_heading' => 'ทำไมผู้คนถึงเลือก Clevera² เพื่อพัฒนาอาชีพ',
+    'testi_heading' => 'ทำไมผู้คนถึงเลือก Clevera เพื่อพัฒนาอาชีพ',
     'testi_name' => 'Felipe M.',
     'testi_since' => 'เรียนมาตั้งแต่ 2018',
     'testi_quote' => '"การเรียนตามจังหวะและเวลาของตัวเองทำให้ประสบการณ์การเรียนรู้ยอดเยี่ยม เรียนได้เมื่อสะดวกและเหมาะกับอารมณ์ของเรา"',

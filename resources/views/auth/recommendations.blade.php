@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ __('course_flow.title_recommendations') }}</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <style>
@@ -24,7 +24,7 @@
             color: var(--text-dark);
             margin: 0;
             padding: 0;
-            font-famCleveray: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         /* ”€”€”€ HEADER ”€”€”€ */
@@ -43,7 +43,7 @@
             padding: 0 30px;
         }
 
-        .header-pCleveral {
+        .header-pill {
             width: 100%;
             max-width: 1400px;
             display: flex;
@@ -102,7 +102,7 @@
             position: relative;
         }
 
-        .profCleverae-pCleveral {
+        .profile-pill {
             display: flex;
             align-items: center;
             gap: 10px;
@@ -676,7 +676,7 @@
                                     style="display: flex; gap: 15px; align-items: center; margin-top: 4px;">
                                     <span
                                         style="display: inline-flex; align-items: center; font-size: 11px; color: #94a3b8;">
-                                        <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="#f59e0b"
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="#f59e0b"
                                             style="margin-right: 4px;">
                                             <path
                                                 d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -684,7 +684,7 @@
                                     </span>
                                     <span
                                         style="display: inline-flex; align-items: center; font-size: 11px; color: #94a3b8;">
-                                        <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="#64748b"
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#64748b"
                                             stroke-width="2" style="margin-right: 4px;">
                                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                             <circle cx="9" cy="7" r="4" />
@@ -706,7 +706,7 @@
                     </div>
                     <div class="update-date"
                         style="display: flex; align-items: center; gap: 8px; font-size: 11px; color: #94a3b8; margin-bottom: 20px;">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fCleveral="none" stroke="#2563eb" stroke-width="2.5"
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.5"
                             stroke-linecap="round" stroke-linejoin="round">
                             <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
                             <line x1="16" y1="2" x2="16" y2="6" />
@@ -731,7 +731,7 @@
                 <div class="hero-right">
                     <div class="video-preview">
                         <div class="play-btn">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fCleveral="white">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
                                 <path d="M8 5v14l11-7z" />
                             </svg>
                         </div>
@@ -740,7 +740,7 @@
             </div>
 
             <div class="tab-strip">
-                <a href="{{ route('course.detaClevera') }}" class="tab-item">{{ __('course_flow.tab_about') }}</a>
+                <a href="{{ route('course.detail') }}" class="tab-item">{{ __('course_flow.tab_about') }}</a>
                 <a href="{{ route('courses') }}" class="tab-item">{{ __('course_flow.tab_outcomes') }}</a>
                 <a href="{{ route('modules') }}" class="tab-item">{{ __('course_flow.tab_modules') }}</a>
                 <div class="tab-item active">{{ __('course_flow.tab_recommendations') }}</div>
@@ -751,11 +751,11 @@
             <div class="recom-header">
                 <h2>Explore more from Courses</h2>
                 <div class="arrow-btns">
-                    <button class="arrow-btn"><svg width="20" height="20" viewBox="0 0 24 24" fCleveral="none"
+                    <button class="arrow-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2.5">
                             <path d="m15 18-6-6 6-6" />
                         </svg></button>
-                    <button class="arrow-btn"><svg width="20" height="20" viewBox="0 0 24 24" fCleveral="none"
+                    <button class="arrow-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2.5">
                             <path d="m9 18 6-6-6-6" />
                         </svg></button>
@@ -771,16 +771,16 @@
                     </div>
                     <div class="c-body">
                         <h3>AI for Business Applications</h3>
-                        <p>Learn essential skCleverals for pet care and management in this comprehensive course.</p>
+                        <p>Learn essential skills for pet care and management in this comprehensive course.</p>
                         <div class="c-footer">
                             <div class="cf-left">
                                 <div class="cf-avatar"></div>
                                 <div class="cf-meta">
-                                    <span><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2">
+                                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
                                             <circle cx="12" cy="12" r="3" />
                                         </svg> 4.2k</span>
-                                    <span><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2">
+                                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                             <circle cx="9" cy="7" r="4" />
                                             <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
@@ -788,7 +788,7 @@
                                         </svg> 250</span>
                                 </div>
                             </div>
-                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fCleveral="none"
+                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2.5">
                                 <path
                                     d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -804,17 +804,17 @@
                         <img src="{{ asset('images/10. Create a startup.jpg') }}">
                     </div>
                     <div class="c-body">
-                        <h3>BuCleverading a Sustainable Startup: Strategies for Success</h3>
-                        <p>Master the strategies needed to buCleverad and scale your successful startup business.</p>
+                        <h3>Web Development Bootcamp: Frontend to Full Stack</h3>
+                        <p>Master the strategies needed to build and scale your successful startup business.</p>
                         <div class="c-footer">
                             <div class="cf-left">
                                 <div class="cf-avatar"></div>
                                 <div class="cf-meta">
-                                    <span><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2">
+                                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
                                             <circle cx="12" cy="12" r="3" />
                                         </svg> 3.8k</span>
-                                    <span><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2">
+                                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                             <circle cx="9" cy="7" r="4" />
                                             <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
@@ -822,7 +822,7 @@
                                         </svg> 180</span>
                                 </div>
                             </div>
-                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fCleveral="none"
+                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2.5">
                                 <path
                                     d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -838,17 +838,17 @@
                         <img src="{{ asset('images/1. Identity.png') }}">
                     </div>
                     <div class="c-body">
-                        <h3>Rajamangala Identity Course</h3>
-                        <p>Explore the cultural identity and values of Rajamangala University.</p>
+                        <h3>Cloud Computing & DevOps Masterclass</h3>
+                        <p>Explore modern cloud architectures and DevOps methodologies.</p>
                         <div class="c-footer">
                             <div class="cf-left">
                                 <div class="cf-avatar"></div>
                                 <div class="cf-meta">
-                                    <span><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2">
+                                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
                                             <circle cx="12" cy="12" r="3" />
                                         </svg> 5.1k</span>
-                                    <span><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2">
+                                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                             <circle cx="9" cy="7" r="4" />
                                             <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
@@ -856,7 +856,7 @@
                                         </svg> 420</span>
                                 </div>
                             </div>
-                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fCleveral="none"
+                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2.5">
                                 <path
                                     d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -869,20 +869,20 @@
                 <div class="c-card">
                     <div class="c-img-wrap">
                         <span class="badge-free">Free</span>
-                        <img src="{{ asset('images/2. Relationship buCleverading digital business base.png') }}">
+                        <img src="{{ asset('images/2. Relationship building digital business base.png') }}">
                     </div>
                     <div class="c-body">
-                        <h3>BuCleverading Relationships to Create a Digital Business Foundation</h3>
+                        <h3>Building Relationships to Create a Digital Business Foundation</h3>
                         <p>Learn how to forge strong professional relationships in the digital business era.</p>
                         <div class="c-footer">
                             <div class="cf-left">
                                 <div class="cf-avatar"></div>
                                 <div class="cf-meta">
-                                    <span><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2">
+                                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
                                             <circle cx="12" cy="12" r="3" />
                                         </svg> 2.9k</span>
-                                    <span><svg viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2">
+                                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                             <circle cx="9" cy="7" r="4" />
                                             <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
@@ -890,7 +890,7 @@
                                         </svg> 150</span>
                                 </div>
                             </div>
-                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fCleveral="none"
+                            <svg class="heart-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2.5">
                                 <path
                                     d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.78-8.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -931,7 +931,7 @@
                             onchange="document.getElementById('recom-footer-lang').action='{{ url('/set-language') }}/'+this.value; document.getElementById('recom-footer-lang').submit();">
                             <option value="en" @selected(app()->getLocale() === 'en')>{{ __('home.lang_english') }}
                             </option>
-                            <option value="th" @selected(app()->getLocale() === 'th')>{{ __('home.lang_thai') }}</option>
+                            <option style="display:none;" value="th" @selected(app()->getLocale() === 'th')>{{ __('home.lang_thai') }}</option>
                         </select>
                     </form>
                     <div class="social-row">

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'page_title' => 'แบบทดสอบ | Clevera² Clevera',
+    'page_title' => 'แบบทดสอบ | Clevera',
     'heading' => 'แบบทดสอบ',
     'upcoming_title' => 'แบบทดสอบที่กำลังจะถึง',
     'upcoming_desc' => 'ติดตามแบบทดสอบที่ยังทำไม่ครบและเริ่มทำก่อนถึงกำหนดส่ง',

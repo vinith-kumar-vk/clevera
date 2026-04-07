@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | IL² RMUTTO</title>
+    <title>Home | il² RMUTTO</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
@@ -567,14 +567,14 @@
         <div class="home-footer-inner">
             <div class="footer-brand-section">
                 <div class="footer-logo-circle">
-                    <img src="{{ asset('images/icons/logo.svg') }}" alt="IL2 Logo">
+                    <img src="{{ asset('images/icons/logo.svg') }}" alt="il2 Logo">
                 </div>
-                <p>Learn anytime and anywhere from IL2 career skills</p>
+                <p>Learn anytime and anywhere from il2 career skills</p>
             </div>
 
             <div class="footer-links-column">
                 <ul>
-                    <li><a href="{{ route('info.page', ['topic' => 'teach']) }}">Teach on IL2</a></li>
+                    <li><a href="{{ route('info.page', ['topic' => 'teach']) }}">Teach on il2</a></li>
                     <li><a href="{{ route('info.page', ['topic' => 'about']) }}">About Us</a></li>
                     <li><a href="{{ route('info.page', ['topic' => 'contact']) }}">Contact Us</a></li>
                     <li><a href="{{ route('info.page', ['topic' => 'support']) }}">Help and Support</a></li>

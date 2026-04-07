@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard | Clevera</title>
-    <link href="https://fonts.googleapis.com/css2?famCleveray=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Dashboard | il</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
     <!-- Responsive Enhancements -->
@@ -60,31 +60,31 @@
                                     <h4>AI for Business Applications</h4>
                                     <p>09:00 AM - 10:00 AM</p>
                                 </div>
-                                <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
+                                <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
                             </div>
                             <div class="enrolled-item">
                                 <div class="color-bar" style="background:#22c55e;"></div>
                                 <div class="enrolled-info">
-                                    <h4>BuCleverading a Sustainable Startup</h4>
+                                    <h4>Web Development Bootcamp</h4>
                                     <p>11:00 AM - 01:00 PM</p>
                                 </div>
-                                <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
+                                <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
                             </div>
                             <div class="enrolled-item">
                                 <div class="color-bar" style="background:#8b5cf6;"></div>
                                 <div class="enrolled-info">
-                                    <h4>Rajamangala Identity Course</h4>
+                                    <h4>Cloud Computing & DevOps Masterclass</h4>
                                     <p>01:00 PM - 01:30 PM</p>
                                 </div>
-                                <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
+                                <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
                             </div>
                             <div class="enrolled-item">
                                 <div class="color-bar" style="background:#f97316;"></div>
                                 <div class="enrolled-info">
-                                    <h4>BuCleverading Relationships</h4>
+                                    <h4>Building Relationships</h4>
                                     <p>03:30 PM - 04:30 PM</p>
                                 </div>
-                                <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
+                                <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
                             </div>
                         </div>
                     </div>
@@ -93,35 +93,35 @@
                 <!-- <div class="side-col">
                     <div class="section-card">
                         <div class="section-header">Courses</div>
-                        <a href="{{ route('course.detaClevera') }}" class="course-card" style="text-decoration:none; color:inherit;">
+                        <a href="{{ route('course.detail') }}" class="course-card" style="text-decoration:none; color:inherit;">
                             <div class="course-circ"></div>
                             <div class="course-body">
                                 <h4>AI for Business Applications</h4>
                                 <p>12 hours</p>
                                 <div class="progress-row">
-                                    <div class="prog-bg"><div class="prog-fCleveral" style="width: 50%;"></div></div>
+                                    <div class="prog-bg"><div class="prog-fill" style="width: 50%;"></div></div>
                                     <span class="prog-val">50%</span>
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ route('course.detaClevera') }}" class="course-card" style="text-decoration:none; color:inherit;">
+                        <a href="{{ route('course.detail') }}" class="course-card" style="text-decoration:none; color:inherit;">
                             <div class="course-circ"></div>
                             <div class="course-body">
-                                <h4>BuCleverading a Sustainable Startup</h4>
+                                <h4>Web Development Bootcamp</h4>
                                 <p>32 hours</p>
                                 <div class="progress-row">
-                                    <div class="prog-bg"><div class="prog-fCleveral" style="width: 90%;"></div></div>
+                                    <div class="prog-bg"><div class="prog-fill" style="width: 90%;"></div></div>
                                     <span class="prog-val">90%</span>
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ route('course.detaClevera') }}" class="course-card" style="text-decoration:none; color:inherit;">
+                        <a href="{{ route('course.detail') }}" class="course-card" style="text-decoration:none; color:inherit;">
                             <div class="course-circ"></div>
                             <div class="course-body">
-                                <h4>Rajamangala Identity Course</h4>
+                                <h4>Cloud Computing & DevOps Masterclass</h4>
                                 <p>32 hours</p>
                                 <div class="progress-row">
-                                    <div class="prog-bg"><div class="prog-fCleveral" style="width: 100%;"></div></div>
+                                    <div class="prog-bg"><div class="prog-fill" style="width: 100%;"></div></div>
                                     <span class="prog-val">100%</span>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
                 <div class="section-header">
                     <span style="display:flex; align-items:center; gap:8px;">
                         Notes
-                        <svg width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2" style="opacity:0.5;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity:0.5;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
                     </span>
                     <div class="notes-header-actions" style="display:flex; gap:15px; align-items:center;">
                         <button class="btn-add" style="height:32px; padding:0 15px;">+ Add List</button>
@@ -146,14 +146,14 @@
                     <div class="note-column">
                         <div class="note-col-head">
                             <span>Reminder <span class="count-badge">3</span></span>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/><circle cx="6" cy="12" r="1.5"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/><circle cx="6" cy="12" r="1.5"/></svg>
                         </div>
                         <a href="#" class="show-pinned-task">Show Pinned Task</a>
                         <div class="note-card">
                             <span class="note-tag tag-med">Medium</span>
                             <p class="note-text">(New Feature) Task</p>
                         </div>
-                        <div class="plus-btn-card"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+                        <div class="plus-btn-card"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
                         
                         <!-- Inline Add Form as shown in image -->
                         <div class="add-task-form">
@@ -173,14 +173,14 @@
                     <div class="note-column">
                         <div class="note-col-head">
                             <span>To Do <span class="count-badge">3</span></span>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/><circle cx="6" cy="12" r="1.5"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/><circle cx="6" cy="12" r="1.5"/></svg>
                         </div>
                         <a href="#" class="show-pinned-task">Show Pinned Task</a>
                         <div class="note-card">
                             <span class="note-tag tag-high">High</span>
                             <p class="note-text">(New Feature) Task</p>
                         </div>
-                        <div class="plus-btn-card"><svg width="18" height="18" viewBox="0 0 24 24" fCleveral="none" stroke="currentColor" stroke-width="3"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
+                        <div class="plus-btn-card"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
                     </div>
 
                     <div class="note-column" style="background:transparent; border:1px dashed #e2e8f0;">

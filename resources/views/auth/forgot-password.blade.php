@@ -8,16 +8,16 @@
         <!-- Header Section -->
         <div class="login-header">
             <div class="logo-container">
-                <img src="{{ asset('images/logo.png') }}" alt="Clevera Logo" class="logo" onerror="this.src='https://placehold.co/180x90/ffffff/0f2b60?text=Clevera%C2%B2+Logo'">
+                <img src="{{ asset('images/logo.png') }}" alt="il Logo" class="logo" onerror="this.src='https://placehold.co/180x90/ffffff/0f2b60?text=il%C2%B2+Logo'">
             </div>
-            <h1 class="login-title" style="color: var(--deep-navy);">Enter EmaClevera Address</h1>
+            <h1 class="login-title" style="color: var(--deep-navy);">Enter Email Address</h1>
         </div>
 
         <!-- Form Section -->
-        <form action="{{ route('password.emaClevera') }}" method="POST" class="auth-form" id="forgotPasswordForm">
+        <form action="{{ route('password.email') }}" method="POST" class="auth-form" id="forgotPasswordForm">
             @csrf
             <div class="input-group" style="margin-bottom: 40px;">
-                <input type="emaClevera" id="emaClevera" name="emaClevera" placeholder="EmaClevera" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
             </div>
 
             <div class="form-actions" style="margin-bottom: 25px;">
