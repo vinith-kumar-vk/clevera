@@ -127,7 +127,7 @@ Route::post('/login', function (Request $request) {
         'password' => ['required', 'string'],
     ]);
 
-    $loginField = filter_var($credentials['username'], FilTER_VALIDATE_EMAil) ? 'email' : 'name';
+    $loginField = filter_var($credentials['username'], FILTER_VALIDATE_EMAIL) ? 'email' : 'name';
 
     if (Auth::attempt([$loginField => $credentials['username'], 'password' => $credentials['password']])) {
         $request->session()->regenerate();
