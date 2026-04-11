@@ -411,7 +411,7 @@
             </div>
             <div class="f-col">
                 <ul>
-                    <li><a href="#">Teach on il</a></li>
+                    <li><a href="#">Teach on Clevera</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Help and Support</a></li>

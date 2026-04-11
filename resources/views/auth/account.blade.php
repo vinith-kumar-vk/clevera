@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Account | il</title>
-    
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}?v={{ time() }}">
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}?v={{ time() }}">
     <style>
@@ -45,7 +46,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 0 24px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
         }
 
         .header-left {
@@ -169,7 +170,7 @@
             background: #fff;
             border-radius: 24px;
             padding: 24px 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
             height: fit-content;
         }
 
@@ -223,7 +224,7 @@
             background: #fff;
             border-radius: 24px;
             padding: 60px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.02);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.02);
             min-height: 600px;
         }
 
@@ -255,7 +256,7 @@
             font-size: 13px;
             font-weight: 600;
             cursor: pointer;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
             gap: 8px;
@@ -287,7 +288,8 @@
             margin-left: 2px;
         }
 
-        .form-group input, .form-group select {
+        .form-group input,
+        .form-group select {
             height: 52px;
             background: #fff;
             border: 1.5px solid #e2e8f0;
@@ -361,7 +363,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
             margin-bottom: 24px;
         }
 
@@ -435,35 +437,106 @@
         }
 
         @media (max-width: 1024px) {
-            .account-container { grid-template-columns: 1fr; }
-            .header-inner-pill { max-width: 95%; }
-            .footer-inner { flex-direction: column; gap: 40px; }
-            .footer-links-container { justify-content: flex-start; gap: 40px; }
-            .footer-right { align-items: flex-start; }
-            .form-grid { grid-template-columns: 1fr; }
+            .account-container {
+                grid-template-columns: 1fr;
+            }
+
+            .header-inner-pill {
+                max-width: 95%;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .footer-links-container {
+                justify-content: flex-start;
+                gap: 40px;
+            }
+
+            .footer-right {
+                align-items: flex-start;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         @media (max-width: 768px) {
-            .top-header { padding: 12px 24px; position: fixed; width: 100%; top: 0; left: 0; right: 0; box-sizing: border-box; }
-            .header-inner-pill { height: auto; padding: 12px 20px; border-radius: 20px; flex-direction: column; gap: 10px; width: 100%; max-width: 100%; }
-            .search-bar-pill { width: 100%; }
-            .category-select-pill, .h-icon-btn:not(:last-child) { display: none; }
-            .header-right { width: 100%; justify-content: center; }
-            
-            .account-container { padding: 120px 24px 40px; }
-            .account-card { padding: 30px 24px; }
-            .footer { padding: 40px 24px; }
-            .footer-inner { gap: 30px; }
-            .footer-links-container { flex-direction: column; gap: 20px; }
+            .top-header {
+                padding: 12px 24px;
+                position: fixed;
+                width: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                box-sizing: border-box;
+            }
+
+            .header-inner-pill {
+                height: auto;
+                padding: 12px 20px;
+                border-radius: 20px;
+                flex-direction: column;
+                gap: 10px;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .search-bar-pill {
+                width: 100%;
+            }
+
+            .category-select-pill,
+            .h-icon-btn:not(:last-child) {
+                display: none;
+            }
+
+            .header-right {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .account-container {
+                padding: 120px 24px 40px;
+            }
+
+            .account-card {
+                padding: 30px 24px;
+            }
+
+            .footer {
+                padding: 40px 24px;
+            }
+
+            .footer-inner {
+                gap: 30px;
+            }
+
+            .footer-links-container {
+                flex-direction: column;
+                gap: 20px;
+            }
         }
 
         @media (max-width: 480px) {
-            .content-title { font-size: 18px; }
-            .btn-update { width: 100%; }
-            .avatar-section { margin-bottom: 30px; }
+            .content-title {
+                font-size: 18px;
+            }
+
+            .btn-update {
+                width: 100%;
+            }
+
+            .avatar-section {
+                margin-bottom: 30px;
+            }
         }
     </style>
 </head>
+
 <body>
     @include('partials.header')
 
@@ -479,7 +552,10 @@
             <div class="avatar-section">
                 <div class="avatar-main"></div>
                 <button class="edit-btn">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                        <path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                    </svg>
                     Edit
                 </button>
             </div>
@@ -500,7 +576,8 @@
                         <input type="password" value="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢">
                     </div>
                     <div class="form-group" style="padding-bottom: 2px;">
-                        <a href="{{ route('password.change') }}" class="btn-navy" style="display: flex; align-items: center; justify-content: center; text-decoration: none;">Change</a>
+                        <a href="{{ route('password.change') }}" class="btn-navy"
+                            style="display: flex; align-items: center; justify-content: center; text-decoration: none;">Change</a>
                     </div>
 
                     <div class="form-group">
@@ -541,52 +618,57 @@
             </form>
         </div>
     </main>
-</div>
-
-<footer class="footer">
-    <div class="footer-inner">
-        <div class="footer-logo-section">
-            <div class="logo-circle">
-                <img src="{{ asset('images/icons/logo.svg') }}" alt="Logo">
-            </div>
-            <p class="footer-tagline">Learn anytime and anywhere<br>from il career skills</p>
-        </div>
-
-        <div class="footer-links-container">
-            <div class="footer-col">
-                <a href="#">Teach on il</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Help and Support</a>
-            </div>
-            <div class="footer-col">
-                <a href="#">Terms</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Cookies Policy</a>
-                <a href="#">Career</a>
-            </div>
-        </div>
-
-        <div class="footer-right">
-            <select class="footer-lang" style="display: none !important;">
-                <option>English</option>
-                <option style="display:none;">Thai</option>
-            </select>
-            
-            <div class="social-icons">
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook"></a>
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram"></a>
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter"></a>
-            </div>
-
-            <div class="app-badges">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store">
-            </div>
-        </div>
     </div>
-</footer>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo-section">
+                <div class="logo-circle">
+                    <img src="{{ asset('images/icons/logo.svg') }}" alt="Logo">
+                </div>
+                <p class="footer-tagline">Learn anytime and anywhere<br>from il career skills</p>
+            </div>
+
+            <div class="footer-links-container">
+                <div class="footer-col">
+                    <a href="#">Teach on Clevera</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Help and Support</a>
+                </div>
+                <div class="footer-col">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies Policy</a>
+                    <a href="#">Career</a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <select class="footer-lang" style="display: none !important;">
+                    <option>English</option>
+                    <option style="display:none;">Thai</option>
+                </select>
+
+                <div class="social-icons">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg"
+                            alt="Facebook"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+                            alt="Instagram"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg"
+                            alt="Twitter"></a>
+                </div>
+
+                <div class="app-badges">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                        alt="Google Play">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                        alt="App Store">
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
-</html>
 
+</html>

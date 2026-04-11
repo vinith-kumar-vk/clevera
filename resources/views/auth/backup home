@@ -574,7 +574,7 @@
 
             <div class="footer-links-column">
                 <ul>
-                    <li><a href="{{ route('info.page', ['topic' => 'teach']) }}">Teach on il2</a></li>
+                    <li><a href="{{ route('info.page', ['topic' => 'teach']) }}">Teach on Clevera2</a></li>
                     <li><a href="{{ route('info.page', ['topic' => 'about']) }}">About Us</a></li>
                     <li><a href="{{ route('info.page', ['topic' => 'contact']) }}">Contact Us</a></li>
                     <li><a href="{{ route('info.page', ['topic' => 'support']) }}">Help and Support</a></li>
