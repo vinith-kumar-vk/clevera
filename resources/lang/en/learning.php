@@ -10,23 +10,23 @@ return [
     'items' => [
         [
             'date' => '01 June 2026',
-            'title' => 'AI for Business Applications',
-            'description' => 'Learn how to leverage AI tools and technologies to solve business problems and automate workflows.',
+            'title' => 'Leadership & Team Management',
+            'description' => 'Master the skills to lead teams effectively and manage organizational goals.',
         ],
         [
             'date' => '01 June 2026',
-            'title' => 'ChatGPT for Productivity',
-            'description' => 'Master prompt engineering and discover strategies to improve personal and team productivity using ChatGPT.',
+            'title' => 'UX/UI Design Principles',
+            'description' => 'Learn the principles of user experience and interface design to create stunning digital products.',
         ],
         [
             'date' => '01 June 2026',
-            'title' => 'Data Analytics Fundamentals',
-            'description' => 'Understand data-centric decision making, data visualization, and analytical tools for modern businesses.',
+            'title' => 'Blockchain & Web3 Basics',
+            'description' => 'Understand the fundamentals of blockchain technology and the decentralized web.',
         ],
         [
             'date' => '01 June 2026',
-            'title' => 'Cybersecurity Basics',
-            'description' => 'Learn fundamental cybersecurity strategies to protect digital assets and build a secure digital presence.',
+            'title' => 'AI in Healthcare',
+            'description' => 'Explore how artificial intelligence is transforming the healthcare industry.',
         ],
     ],
 ];

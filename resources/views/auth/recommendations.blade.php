@@ -701,7 +701,7 @@
                         </div>
                     </div>
                     <div class="title-price-row">
-                        <h1>AI for Business Applications</h1>
+                        <h1>Project Management Essentials</h1>
                         <span class="price-text">Free</span>
                     </div>
                     <div class="update-date"
@@ -770,7 +770,7 @@
                         <img src="{{ asset('images/9. Animal care.jpg') }}">
                     </div>
                     <div class="c-body">
-                        <h3>AI for Business Applications</h3>
+                        <h3>Project Management Essentials</h3>
                         <p>Learn essential skills for pet care and management in this comprehensive course.</p>
                         <div class="c-footer">
                             <div class="cf-left">
@@ -804,7 +804,7 @@
                         <img src="{{ asset('images/10. Create a startup.jpg') }}">
                     </div>
                     <div class="c-body">
-                        <h3>Web Development Bootcamp: Frontend to Full Stack</h3>
+                        <h3>Web Development Fundamentals</h3>
                         <p>Master the strategies needed to build and scale your successful startup business.</p>
                         <div class="c-footer">
                             <div class="cf-left">
@@ -838,7 +838,7 @@
                         <img src="{{ asset('images/1. Identity.png') }}">
                     </div>
                     <div class="c-body">
-                        <h3>Cloud Computing & DevOps Masterclass</h3>
+                        <h3>Cloud Computing Fundamentals</h3>
                         <p>Explore modern cloud architectures and DevOps methodologies.</p>
                         <div class="c-footer">
                             <div class="cf-left">
@@ -872,7 +872,7 @@
                         <img src="{{ asset('images/2. Relationship building digital business base.png') }}">
                     </div>
                     <div class="c-body">
-                        <h3>Building Relationships to Create a Digital Business Foundation</h3>
+                        <h3>Business Communication Skills</h3>
                         <p>Learn how to forge strong professional relationships in the digital business era.</p>
                         <div class="c-footer">
                             <div class="cf-left">

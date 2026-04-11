@@ -791,7 +791,7 @@
                         </div>
                     </div>
                     <div class="title-price-row">
-                        <h1>AI for Business Applications</h1>
+                        <h1>Project Management Essentials</h1>
                         <span class="price-text">Free</span>
                     </div>
                     <div class="update-date"
@@ -846,7 +846,7 @@
             <div class="footer-inner">
                 <div class="f-brand">
                     <div class="f-logo-circle"><img src="{{ asset('images/logo.png') }}"></div>
-                    <p>Learn anytime and anywhere from il career skills</p>
+                    <p>Learn anytime and anywhere from Clevera career skills</p>
                 </div>
                 <div class="f-col">
 

@@ -9,24 +9,24 @@ return [
 
     'items' => [
         [
-            'date' => '1 มิถุนายน 2569',
-            'title' => 'หลักสูตรผู้ช่วยพยาบาลสัตวแพทย์',
-            'description' => 'เรียนรู้พื้นฐานการดูแลสัตว์และทักษะช่วยงานคลินิกสัตวแพทย์ในรูปแบบออนไลน์ที่เป็นระบบ',
+            'date' => '01 June 2026',
+            'title' => 'Leadership & Team Management',
+            'description' => 'Master the skills to lead teams effectively and manage organizational goals.',
         ],
         [
-            'date' => '1 มิถุนายน 2569',
-            'title' => 'สร้างสตาร์ทอัพที่ยั่งยืน: กลยุทธ์สู่ความสำเร็จ',
-            'description' => 'ศึกษาโมเดลธุรกิจ การระดมทุน และกลยุทธ์การเติบโตระยะยาวเพื่อสร้างสตาร์ทอัพที่มั่นคง',
+            'date' => '01 June 2026',
+            'title' => 'UX/UI Design Principles',
+            'description' => 'Learn the principles of user experience and interface design to create stunning digital products.',
         ],
         [
-            'date' => '1 มิถุนายน 2569',
-            'title' => 'หลักสูตรอัตลักษณ์ราชมงคล',
-            'description' => 'ทำความเข้าใจอัตลักษณ์ ค่านิยม และวัฒนธรรมสถาบัน il ในเส้นทางการเรียนของคุณ',
+            'date' => '01 June 2026',
+            'title' => 'Blockchain & Web3 Basics',
+            'description' => 'Understand the fundamentals of blockchain technology and the decentralized web.',
         ],
         [
-            'date' => '1 มิถุนายน 2569',
-            'title' => 'สร้างความสัมพันธ์เพื่อรากฐานธุรกิจดิจิทัล',
-            'description' => 'พัฒนาทักษะเครือข่ายและพันธมิตรเพื่อขยายธุรกิจดิจิทัลอย่างยั่งยืน',
+            'date' => '01 June 2026',
+            'title' => 'AI in Healthcare',
+            'description' => 'Explore how artificial intelligence is transforming the healthcare industry.',
         ],
     ],
 ];

@@ -65,7 +65,7 @@
                             <div class="enrolled-item">
                                 <div class="color-bar" style="background:#22c55e;"></div>
                                 <div class="enrolled-info">
-                                    <h4>Web Development Bootcamp</h4>
+                                    <h4>Web Development Fundamentals</h4>
                                     <p>11:00 AM - 01:00 PM</p>
                                 </div>
                                 <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
@@ -73,7 +73,7 @@
                             <div class="enrolled-item">
                                 <div class="color-bar" style="background:#8b5cf6;"></div>
                                 <div class="enrolled-info">
-                                    <h4>Cloud Computing & DevOps Masterclass</h4>
+                                    <h4>Cloud Computing Fundamentals</h4>
                                     <p>01:00 PM - 01:30 PM</p>
                                 </div>
                                 <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>
@@ -81,7 +81,7 @@
                             <div class="enrolled-item">
                                 <div class="color-bar" style="background:#f97316;"></div>
                                 <div class="enrolled-info">
-                                    <h4>Building Relationships</h4>
+                                    <h4>Business Communication Skills</h4>
                                     <p>03:30 PM - 04:30 PM</p>
                                 </div>
                                 <div class="chevron"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg></div>

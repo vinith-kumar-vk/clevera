@@ -600,7 +600,7 @@
             <div class="footer-inner">
                 <div class="f-brand">
                     <div class="f-logo-wrap"><img src="{{ asset('images/logo.png') }}" alt="Logo"></div>
-                    <p>Learn anytime and anywhere from il career skills</p>
+                    <p>Learn anytime and anywhere from Clevera career skills</p>
                 </div>
                 <div class="f-col">
                     <ul>

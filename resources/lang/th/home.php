@@ -92,20 +92,20 @@ return [
     'lang_thai' => 'ไทย',
 
     'live_course_titles' => [
-        'หลักสูตรผู้ช่วยพยาบาลสัตวแพทย์',
-        'สร้างสตาร์ทอัพที่ยั่งยืน: กลยุทธ์สู่ความสำเร็จ',
-        'หลักสูตรอัตลักษณ์ราชมงคล',
+        'Leadership & Team Management',
+        'UX/UI Design Principles',
+        'Blockchain & Web3 Basics',
     ],
     'free_course_titles' => [
-        'หลักสูตรผู้ช่วยพยาบาลสัตวแพทย์',
-        'สร้างสตาร์ทอัพที่ยั่งยืน: กลยุทธ์สู่ความสำเร็จ',
-        'หลักสูตรอัตลักษณ์ราชมงคล',
-        'สร้างความสัมพันธ์เพื่อรากฐานธุรกิจดิจิทัล',
+        'Digital Marketing Strategy',
+        'Entrepreneurship & Startup Foundations',
+        'Financial Literacy & Budgeting',
+        'Business Communication Skills',
     ],
     'popular_course_titles' => [
-        'ธุรกิจเครื่องดื่ม: จากไอเดียสู่ความสำเร็จยั่งยืน',
-        'ธุรกิจต้านวัยด้วยผลิตภัณฑ์ชีวภาพ',
-        'เรียนรู้และร่ำรวย',
-        'การท่องเที่ยวแบบแคมป์ปิ้งและธุรกิจค่ายพักแรม',
+        'AI in Healthcare',
+        'Robotics & Automation Basics',
+        'Internet of Things (IoT) Fundamentals',
+        'Digital Transformation for Businesses',
     ],
 ];

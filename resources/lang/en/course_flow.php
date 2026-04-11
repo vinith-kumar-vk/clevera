@@ -20,7 +20,7 @@ return [
     'students_zero' => '0 Students',
     'save' => 'Save',
     'share' => 'Share',
-    'course_title_vet' => 'Advanced AI & Machine Learning',
+    'course_title_vet' => 'Project Management Essentials',
     'free' => 'Free',
     'updated_date' => 'Updated date : 26 March 2026',
     'updated_date_icon' => 'Updated date : 26 March 2026',

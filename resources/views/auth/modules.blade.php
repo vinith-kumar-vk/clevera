@@ -796,7 +796,7 @@
                             </div>
                         </div>
                         <div class="title-price-row">
-                            <h1>AI for Business Applications</h1>
+                            <h1>Project Management Essentials</h1>
                             <span class="price-text">Free</span>
                         </div>
                         <div class="update-date"

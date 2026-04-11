@@ -20,7 +20,7 @@ return [
     'students_zero' => '0 คน',
     'save' => 'บันทึก',
     'share' => 'แชร์',
-    'course_title_vet' => 'หลักสูตรผู้ช่วยพยาบาลสัตวแพทย์',
+    'course_title_vet' => 'Project Management Essentials',
     'free' => 'ฟรี',
     'updated_date' => 'อัปเดตล่าสุด : 26 มีนาคม 2569',
     'updated_date_icon' => 'อัปเดตล่าสุด : 26 มีนาคม 2569',

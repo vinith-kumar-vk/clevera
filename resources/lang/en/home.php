@@ -92,20 +92,20 @@ return [
     'lang_thai' => 'Thai',
 
     'live_course_titles' => [
-        'AI for Business Applications',
-        'ChatGPT for Productivity',
-        'Data Analytics Fundamentals',
+        'Leadership & Team Management',
+        'UX/UI Design Principles',
+        'Blockchain & Web3 Basics',
     ],
     'free_course_titles' => [
-        'Cybersecurity Basics',
         'Digital Marketing Strategy',
         'Entrepreneurship & Startup Foundations',
         'Financial Literacy & Budgeting',
+        'Business Communication Skills',
     ],
     'popular_course_titles' => [
-        'Business Communication Skills',
-        'Project Management Essentials',
-        'Leadership & Team Management',
-        'Introduction to Coding (Python Basics)',
+        'AI in Healthcare',
+        'Robotics & Automation Basics',
+        'Internet of Things (IoT) Fundamentals',
+        'Digital Transformation for Businesses',
     ],
 ];
