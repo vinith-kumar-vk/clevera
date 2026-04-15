@@ -36,7 +36,7 @@ return [
     'feature_4_alt' => 'Group learning',
 
     'wide_range_l1' => 'A wide range of ',
-    'wide_range_l2' => 'courses to spark',
+    'wide_range_l2' => 'courses to spark ',
     'wide_range_l3' => 'your creativity',
     'alt_learning' => 'Learning',
     'alt_deep_focus' => 'Deep Focus',
