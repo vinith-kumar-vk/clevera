@@ -843,6 +843,8 @@ body {
 }
 
 @media (max-width: 768px) {
+
+
     .dashboard-wrapper {
         grid-template-columns: 1fr;
         grid-template-areas:

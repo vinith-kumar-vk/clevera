@@ -338,4 +338,8 @@ body {
         gap: 0 !important;
         /* No extra gaps between sections */
     }
+
+    .plan-card-item {
+        padding: 16px !important;
+    }
 }
