@@ -35,7 +35,7 @@ return [
     'feature_4_desc' => 'Put your heads together and increase your knowledge base. With the right platform, transform your course into an interactive group experience.',
     'feature_4_alt' => 'Group learning',
 
-    'wide_range_l1' => 'A wide range of',
+    'wide_range_l1' => 'A wide range of ',
     'wide_range_l2' => 'courses to spark',
     'wide_range_l3' => 'your creativity',
     'alt_learning' => 'Learning',
@@ -67,7 +67,7 @@ return [
     'live_time' => '02:00 PM',
     'alt_live_class' => 'Live Class',
 
-    'free_session_l1' => 'Pick a free session course',
+    'free_session_l1' => 'Pick a free session course ',
     'free_session_l2' => 'to get started',
     'free_session_sub' => 'Once you finish your free videos, subscribe to continue the full course.',
     'view_all' => 'View All',

@@ -522,6 +522,11 @@
                 text-align: center;
             }
 
+            .btn-fill-blue {
+                width: 100%;
+                text-align: center;
+            }
+
             footer {
                 padding: 40px 20px;
             }
