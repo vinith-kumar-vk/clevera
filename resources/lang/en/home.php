@@ -59,7 +59,7 @@ return [
     'get_started' => 'Get Started',
 
     'career_heading' => 'Construct a stunning career perspective',
-    'career_sub' => 'We don\'t just give our students lectures—we give them real life experience',
+    'career_sub' => 'We don\'t just give our students lectures - we give them real life experience',
     'teacher' => 'Teacher',
     'live' => 'Live',
     'topic_description' => 'Topic Description',
